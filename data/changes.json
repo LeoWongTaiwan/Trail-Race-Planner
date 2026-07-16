@@ -1,9 +1,53 @@
 {
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-16T17:25:14Z",
+  "windowStart": "2026-07-16",
+  "windowEnd": "2027-07-16",
   "raceCount": 129,
-  "newRaces": [
-    "2026山径探索7月夏训赛（南京）",
-    "2026拓野千岛湖·寻屿夏季越野赛"
+  "statusChanges": [
+    {
+      "id": "8e031bed93e179",
+      "name": "2026上千野·大连广鹿岛月光越野赛",
+      "from": "soon",
+      "to": "pending"
+    },
+    {
+      "id": "092a2529c0a727",
+      "name": "2026京东大境门古长城越野赛 by UTMB®",
+      "from": "closed",
+      "to": "pending"
+    },
+    {
+      "id": "ac3384ac8d1aeb",
+      "name": "霞路相逢·三山五岳2026庐山越野赛",
+      "from": "soon",
+      "to": "pending"
+    },
+    {
+      "id": "c287777d1505d8",
+      "name": "2026凯乐石贡嘎100冰川极限挑战赛",
+      "from": "soon",
+      "to": "pending"
+    },
+    {
+      "id": "fdf73828d87733",
+      "name": "Ultra-Trail Mount Yun by UTMB®",
+      "from": "closed",
+      "to": "pending"
+    },
+    {
+      "id": "b8bd1d0dad86e6",
+      "name": "2026 MaXi-Race China 江山100越野赛",
+      "from": "soon",
+      "to": "pending"
+    },
+    {
+      "id": "7710585727763c",
+      "name": "Trail Running to 2035 2027",
+      "from": "soon",
+      "to": "pending"
+    }
   ],
-  "note": "V1 真實資料種子版"
+  "removedOutsideWindow": [],
+  "newRaces": [],
+  "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."
 }

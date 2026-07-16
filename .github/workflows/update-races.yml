@@ -1,1 +1,37 @@
+name: Weekly Trail Planner Update
 
+on:
+  workflow_dispatch:
+  schedule:
+    # Every Monday at 00:15 UTC = 08:15 Taiwan time
+    - cron: "15 0 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update-races:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update rolling window and race statuses
+        run: python scripts/update_races.py
+
+      - name: Commit changes when needed
+        run: |
+          if git diff --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "trail-planner-bot"
+          git config user.email "trail-planner-bot@users.noreply.github.com"
+          git add data/races.json data/changes.json
+          git commit -m "chore: weekly race data refresh"
+          git push

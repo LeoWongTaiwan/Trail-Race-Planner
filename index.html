@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f4f4ef">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Trail Planner">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>Trail Planner V3</title>
+<style>
+:root{
+  --bg:#f4f4ef;--ink:#121722;--muted:#6c7280;--line:#e4e5df;--white:#fff;
+  --navy:#0e1728;--navy2:#25324a;--cream:#f7ebd1;--cream-deep:#ebd8ae;
+  --sage:#dfe8dd;--green:#17613e;--amber:#9a5c00;--red:#a52a2a;--blue:#254b9b;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif}
+button,input,select{font:inherit}
+body{padding-bottom:90px}
+.screen{display:none}.screen.active{display:block}
+.page{max-width:760px;margin:auto;padding:14px 14px 110px}
+.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.brand{display:flex;gap:10px;align-items:center}
+.logo{width:40px;height:40px;border-radius:14px;background:var(--navy);color:#fff;display:grid;place-items:center;font-size:20px}
+.brand h1{font-size:21px;margin:0}.brand small{display:block;margin-top:4px;color:var(--muted)}
+.icon-btn{width:40px;height:40px;border:0;border-radius:14px;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.panel{border-radius:24px;margin-bottom:14px;overflow:hidden}
+.dashboard{background:linear-gradient(145deg,var(--navy),var(--navy2));color:#fff;padding:18px;box-shadow:0 12px 28px rgba(14,23,40,.16)}
+.dashboard .eyebrow{font-size:12px;color:#c7cfda}.dashboard h2{font-size:26px;line-height:1.2;margin:8px 0 15px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stat{padding:11px;border-radius:16px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.08)}
+.stat span{font-size:11px;color:#cbd5e1}.stat b{display:block;font-size:21px;margin-top:3px}
+.priority{margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,.12)}
+.priority-row{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.priority-row b{font-size:15px}.priority-row span{font-size:12px;color:#cbd5e1}
+.white-btn{border:0;background:#fff;color:var(--navy);border-radius:12px;padding:9px 11px;font-weight:700;font-size:12px}
+
+.recommend{background:var(--cream);padding:16px;border:1px solid var(--cream-deep)}
+.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:10px}
+.section-head h2{font-size:18px;margin:0}.section-head p{font-size:12px;color:#7a6540;margin:4px 0 0}.section-head button{border:0;background:transparent;color:#6d5a35;font-size:13px}
+.reco-scroll{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:2px}.reco-scroll::-webkit-scrollbar{display:none}
+.reco-card{min-width:82%;scroll-snap-align:start;background:rgba(255,255,255,.72);border:1px solid rgba(122,101,64,.16);border-radius:20px;padding:14px}
+.reco-card h3{font-size:17px;margin:0 0 4px}.reco-card .loc{font-size:12px;color:#7a6540}
+.reason-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}.reason{font-size:11px;border-radius:999px;background:#fff;padding:6px 8px;color:#5d4c2f}
+.reco-footer{display:flex;justify-content:space-between;align-items:center;margin-top:13px}.score{font-weight:800}.reco-footer button{border:0;border-radius:12px;background:var(--navy);color:#fff;padding:9px 11px;font-size:12px}
+
+.explore-entry{background:#fff;padding:16px;border:1px solid var(--line)}
+.entry-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.entry-card{border:1px solid var(--line);background:#fafafa;border-radius:18px;padding:14px;text-align:left}
+.entry-card b{display:block;margin-top:8px;font-size:15px}.entry-card span{display:block;margin-top:4px;color:var(--muted);font-size:12px}
+.distance-strip{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-top:12px}.distance-strip::-webkit-scrollbar{display:none}
+.distance-pill{white-space:nowrap;border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 11px;font-size:12px}
+
+.searchbar{position:sticky;top:0;z-index:8;background:rgba(244,244,239,.94);backdrop-filter:blur(16px);padding:8px 0}
+.searchrow{display:flex;gap:8px}.searchrow input{flex:1;border:1px solid var(--line);border-radius:15px;background:#fff;padding:12px 14px;font-size:16px}
+.searchrow button{border:1px solid var(--line);background:#fff;border-radius:15px;padding:0 14px}
+.filter-summary{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;margin-top:9px}.filter-summary::-webkit-scrollbar{display:none}
+.summary-chip{white-space:nowrap;border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 10px;font-size:12px}
+.filter-panel{background:#fff;border:1px solid var(--line);border-radius:22px;padding:12px;margin:10px 0}
+.accordion{border-bottom:1px solid #efefeb}.accordion:last-child{border-bottom:0}
+.acc-head{display:flex;justify-content:space-between;align-items:center;padding:13px 2px;cursor:pointer}
+.acc-head b{font-size:14px}.acc-head span{font-size:12px;color:var(--muted)}
+.acc-body{display:none;padding:0 0 13px}.acc-body.open{display:block}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 11px;font-size:13px}.chip.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+.sort-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.sort-grid select{width:100%;border:1px solid var(--line);background:#fff;border-radius:13px;padding:11px}
+.resultline{font-size:13px;color:var(--muted);margin:10px 2px}
+
+.race-list{display:flex;flex-direction:column;gap:10px}
+.race-card{background:#fff;border:1px solid var(--line);border-radius:21px;padding:14px}
+.race-top{display:flex;gap:12px;align-items:flex-start}
+.datebox{min-width:54px;border-radius:15px;background:#f0f1ec;padding:8px 6px;text-align:center}.datebox b{display:block;font-size:18px}.datebox span{font-size:11px;color:var(--muted)}
+.race-main{flex:1}.race-name{font-size:16px;font-weight:800;line-height:1.35}.race-loc{font-size:12px;color:var(--muted);margin-top:4px}
+.star{border:0;background:transparent;color:#c8cbd1;font-size:22px}.star.on{color:#e9a40b}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.tag{font-size:11px;border-radius:999px;padding:5px 8px;background:#f2f4f6;color:#364152}.tag.green{background:#ecf8f0;color:var(--green)}.tag.amber{background:#fff4d9;color:var(--amber)}.tag.blue{background:#eef3ff;color:var(--blue)}
+.card-actions{display:flex;gap:8px;margin-top:12px}.card-actions button{flex:1;border:0;border-radius:12px;padding:10px}.primary{background:var(--navy);color:#fff}.secondary{background:#eef0f3}
+.details{display:none;overflow:hidden;border-top:1px solid var(--line);margin-top:12px;padding-top:4px}.details.open{display:block}
+.category{display:grid;grid-template-columns:1fr auto;gap:10px;padding:11px 0;border-bottom:1px solid #f0f0ec}.category:last-child{border-bottom:0}.category b{font-size:14px}.category small{display:block;color:var(--muted);margin-top:4px}.category .status{font-size:12px;align-self:center}
+
+.season-tabs{display:flex;gap:8px;margin:8px 0 14px}.season-tab{flex:1;border:1px solid var(--line);background:#fff;border-radius:13px;padding:10px}.season-tab.active{background:var(--navy);color:#fff}
+.profile-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:16px;margin-bottom:12px}.profile-card h3{font-size:17px;margin:0 0 6px}.profile-card p{font-size:13px;color:var(--muted);margin:0}
+.pref-row{display:flex;justify-content:space-between;padding:13px 0;border-bottom:1px solid #f0f0ec}.pref-row:last-child{border-bottom:0}.pref-row span{font-size:14px}.pref-row b{font-size:13px}
+
+.bottom-nav{position:fixed;left:0;right:0;bottom:0;z-index:30;background:rgba(255,255,255,.97);backdrop-filter:blur(16px);border-top:1px solid var(--line);display:flex;padding:7px 8px calc(7px + env(safe-area-inset-bottom))}
+.bottom-nav button{flex:1;border:0;background:transparent;color:var(--muted);font-size:11px;padding:5px}.bottom-nav .ico{display:block;font-size:20px;margin-bottom:2px}.bottom-nav button.active{color:var(--navy);font-weight:800}
+.empty{padding:55px 20px;text-align:center;color:var(--muted)}
+@media(min-width:700px){.page{padding-top:22px}.reco-card{min-width:48%}}
+
+.detail-screen{position:fixed;inset:0;background:var(--bg);z-index:60;display:none;overflow-y:auto;padding-bottom:32px}
+.detail-screen.open{display:block}
+.detail-hero{background:linear-gradient(145deg,var(--navy),var(--navy2));color:#fff;padding:18px 16px 24px;border-radius:0 0 28px 28px}
+.detail-nav{display:flex;justify-content:space-between;align-items:center}
+.back-btn,.share-btn{width:40px;height:40px;border:0;border-radius:14px;background:rgba(255,255,255,.12);color:#fff;font-size:18px}
+.detail-title{margin-top:22px}.detail-title h2{font-size:28px;line-height:1.15;margin:0}.detail-title p{color:#CBD5E1;margin:8px 0 0;font-size:13px}
+.detail-body{padding:14px}
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.info-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:13px}
+.info-card span{font-size:11px;color:var(--muted)}.info-card b{display:block;font-size:15px;margin-top:4px}
+.detail-section{background:#fff;border:1px solid var(--line);border-radius:20px;padding:15px;margin-top:12px}
+.detail-section h3{font-size:16px;margin:0 0 10px}
+.detail-category{padding:12px 0;border-bottom:1px solid #F0F0EC}.detail-category:last-child{border-bottom:0}
+.detail-category-top{display:flex;justify-content:space-between}.detail-category b{font-size:15px}.detail-category small{display:block;color:var(--muted);margin-top:4px}
+.detail-action{position:sticky;bottom:12px;margin:14px}.detail-action button{width:100%;border:0;background:var(--navy);color:#fff;border-radius:16px;padding:14px;font-weight:800}
+.season-hero{background:linear-gradient(145deg,var(--sage),#EDF3EA);border:1px solid var(--sage2);padding:17px}
+.season-hero h2{margin:0;font-size:20px}.season-hero p{font-size:13px;color:#52624E;margin:6px 0 0}
+.toggle{width:45px;height:26px;border-radius:999px;background:#111827;padding:3px}.toggle:after{content:"";display:block;width:20px;height:20px;border-radius:50%;background:#fff;margin-left:19px}
+
+</style>
+</head>
+<body>
+
+<section id="home" class="screen active">
+<div class="page">
+  <div class="topbar">
+    <div class="brand"><div class="logo">⛰</div><div><h1>Trail Planner</h1><small>為 Leo 規劃未來 365 天</small></div></div>
+    <button class="icon-btn" onclick="switchScreen('profile')">⚙️</button>
+  </div>
+
+  <section class="panel dashboard">
+    <div class="eyebrow">今天 · 7月16日</div>
+    <h2>有 3 場比賽需要你近期決定</h2>
+    <div class="stats">
+      <div class="stat"><span>7天內截止</span><b>3</b></div>
+      <div class="stat"><span>新開放</span><b>5</b></div>
+      <div class="stat"><span>我的賽季</span><b id="seasonCount">3</b></div>
+    </div>
+    <div class="priority">
+      <div class="priority-row">
+        <div><b>最緊急：陽朔喀斯特越野</b><span>明天截止 · 60K</span></div>
+        <button class="white-btn" onclick="goDiscover('closing')">查看</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel recommend">
+    <div class="section-head">
+      <div><h2>推薦給你</h2><p>依距離、UTMB 與從廣州出發的便利性</p></div>
+      <button onclick="goDiscover('recommended')">全部</button>
+    </div>
+    <div class="reco-scroll" id="recoScroll"></div>
+  </section>
+
+  <section class="panel explore-entry">
+    <div class="section-head">
+      <div><h2>找比賽</h2><p style="color:var(--muted)">所有詳細條件都集中在 Explore</p></div>
+      <button style="color:var(--muted)" onclick="switchScreen('discover')">進入 →</button>
+    </div>
+    <div class="entry-grid">
+      <button class="entry-card" onclick="goDiscover('open')"><span>🟢</span><b>現在可報</b><span>排除已截止</span></button>
+      <button class="entry-card" onclick="goDiscover('near')"><span>📍</span><b>離廣州最近</b><span>優先華南與港澳</span></button>
+      <button class="entry-card" onclick="goDiscover('utmb')"><span>🏆</span><b>UTMB／積分</b><span>系列賽與 Index</span></button>
+      <button class="entry-card" onclick="switchScreen('season')"><span>⭐</span><b>我的賽季</b><span>想跑與已報名</span></button>
+    </div>
+    <div class="distance-strip" id="homeDistances"></div>
+  </section>
+</div>
+</section>
+
+<section id="discover" class="screen">
+<div class="page">
+  <div class="topbar">
+    <div class="brand"><div><h1>Explore</h1><small>搜尋未來 365 天的賽事</small></div></div>
+    <button class="icon-btn" onclick="resetFilters()">↺</button>
+  </div>
+
+  <div class="searchbar">
+    <div class="searchrow">
+      <input id="searchInput" placeholder="搜尋賽事、城市、省份…" oninput="renderDiscover()">
+      <button onclick="toggleFilterPanel()">篩選</button>
+    </div>
+    <div class="filter-summary" id="filterSummary"></div>
+  </div>
+
+  <div class="filter-panel" id="filterPanel">
+    <div class="accordion">
+      <div class="acc-head" onclick="toggleAcc('distanceBody')"><b>距離</b><span id="distanceSummary">全部</span></div>
+      <div class="acc-body" id="distanceBody"><div class="chips" id="distanceChips"></div></div>
+    </div>
+    <div class="accordion">
+      <div class="acc-head" onclick="toggleAcc('monthBody')"><b>月份</b><span id="monthSummary">全部</span></div>
+      <div class="acc-body" id="monthBody"><div class="chips" id="monthChips"></div></div>
+    </div>
+    <div class="accordion">
+      <div class="acc-head" onclick="toggleAcc('regionBody')"><b>地區</b><span id="regionSummary">全部</span></div>
+      <div class="acc-body" id="regionBody"><div class="chips" id="regionChips"></div></div>
+    </div>
+    <div class="accordion">
+      <div class="acc-head" onclick="toggleAcc('specialBody')"><b>賽事條件</b><span id="specialSummary">未選</span></div>
+      <div class="acc-body" id="specialBody">
+        <div class="chips">
+          <button class="chip" data-cond="open" onclick="toggleCond(this)">現在可報</button>
+          <button class="chip" data-cond="utmb" onclick="toggleCond(this)">UTMB／積分</button>
+          <button class="chip" data-cond="near" onclick="toggleCond(this)">華南優先</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sort-grid">
+    <select id="sortSelect" onchange="renderDiscover()">
+      <option value="dateAsc">比賽日期：近 → 遠</option>
+      <option value="dateDesc">比賽日期：遠 → 近</option>
+      <option value="deadlineAsc">報名截止：近 → 遠</option>
+      <option value="deadlineDesc">報名截止：遠 → 近</option>
+      <option value="near">離廣州：近 → 遠</option>
+    </select>
+    <select id="statusSelect" onchange="renderDiscover()">
+      <option value="">全部狀態</option>
+      <option value="open">現在可報</option>
+      <option value="soon">即將開放</option>
+    </select>
+  </div>
+  <div class="resultline" id="resultCount"></div>
+  <div class="race-list" id="discoverList"></div>
+</div>
+</section>
+
+<section id="season" class="screen">
+<div class="page">
+  <div class="topbar"><div class="brand"><div><h1>我的賽季</h1><small>你的下一年賽事計畫</small></div></div></div>
+  <section class="panel season-hero">
+    <h2>下一場：南澳島海岸越野</h2>
+    <p>還有 44 天 · 已報名 50K</p>
+  </section>
+  <div class="season-tabs">
+    <button class="season-tab active" data-season="wishlist" onclick="setSeasonTab(this)">想跑</button>
+    <button class="season-tab" data-season="registered" onclick="setSeasonTab(this)">已報名</button>
+    <button class="season-tab" data-season="finished" onclick="setSeasonTab(this)">已完賽</button>
+  </div>
+  <div id="seasonList"></div>
+</div>
+</section>
+
+<section id="profile" class="screen">
+<div class="page">
+  <div class="topbar"><div class="brand"><div><h1>我的偏好</h1><small>用於推薦與預設排序</small></div></div></div>
+  <div class="profile-card"><h3>Leo 的越野設定</h3><p>只影響推薦，不會限制你搜尋其他比賽。</p></div>
+  <div class="profile-card">
+    <div class="pref-row"><span>出發地</span><b>廣州</b></div>
+    <div class="pref-row"><span>偏好距離</span><b>50–100K+</b></div>
+    <div class="pref-row"><span>賽事偏好</span><b>UTMB／Index</b></div>
+    <div class="pref-row"><span>搜尋範圍</span><b>未來 365 天</b></div>
+    <div class="pref-row"><span>資料更新</span><b>每週一</b></div>
+  </div>
+  <div class="profile-card">
+    <div class="pref-row"><span>報名截止提醒</span><div class="toggle"></div></div>
+    <div class="pref-row"><span>新開放提醒</span><div class="toggle"></div></div>
+    <div class="pref-row"><span>推薦賽事提醒</span><div class="toggle"></div></div>
+  </div>
+</div>
+</section>
+
+<div id="detailScreen" class="detail-screen"></div>
+
+<nav class="bottom-nav">
+  <button class="active" data-screen="home" onclick="switchScreen('home',this)"><span class="ico">⌂</span>首頁</button>
+  <button data-screen="discover" onclick="switchScreen('discover',this)"><span class="ico">⌕</span>Explore</button>
+  <button data-screen="season" onclick="switchScreen('season',this)"><span class="ico">★</span>我的賽季</button>
+  <button data-screen="profile" onclick="switchScreen('profile',this)"><span class="ico">●</span>偏好</button>
+</nav>
+
+<script>
+const races=[
+ {id:'shudao',name:'Shudao by UTMB',province:'四川',city:'廣元',region:'西南',date:'2026-11-07',deadline:'2026-07-20',status:'open',utmb:true,nearRank:7,recommended:true,travel:'飛行約 2.5 小時',weather:'8–16°C',
+  reasons:['100K','UTMB World Series','適合年度 A Race'],categories:[{km:20,elev:900,label:'20K',index:'UTMB 20K'},{km:50,elev:2800,label:'50K',index:'UTMB 50K'},{km:100,elev:5600,label:'100K',index:'UTMB 100K'}]},
+ {id:'wuyishan',name:'武夷山越野賽',province:'福建',city:'武夷山',region:'華南',date:'2026-10-18',deadline:'2026-08-15',status:'open',utmb:true,nearRank:3,recommended:true,travel:'高鐵約 5 小時',weather:'15–24°C',
+  reasons:['離廣州較近','50K / 100K','UTMB Index'],categories:[{km:15,elev:700,label:'15K'},{km:30,elev:1600,label:'30K'},{km:50,elev:3200,label:'50K',index:'ITRA 2'},{km:100,elev:6100,label:'100K',index:'UTMB 100K'}]},
+ {id:'translantau',name:'TransLantau by UTMB',province:'香港',city:'大嶼山',region:'港澳',date:'2026-12-05',deadline:'2026-09-30',status:'open',utmb:true,nearRank:1,recommended:true,travel:'高鐵約 1 小時',weather:'17–24°C',
+  reasons:['交通最方便','UTMB World Series','100K+'],categories:[{km:25,elev:1400,label:'25K'},{km:50,elev:3000,label:'50K'},{km:100,elev:5800,label:'100K'},{km:120,elev:7000,label:'120K'}]},
+ {id:'yangshuo',name:'陽朔喀斯特越野',province:'廣西',city:'桂林',region:'華南',date:'2026-09-12',deadline:'2026-07-17',status:'open',utmb:false,nearRank:2,recommended:false,travel:'高鐵約 3 小時',weather:'22–31°C',
+  reasons:['明天截止'],categories:[{km:12,elev:400,label:'12K'},{km:30,elev:1200,label:'30K'},{km:60,elev:2900,label:'60K'}]},
+ {id:'huangshan',name:'黃山山徑越野挑戰賽',province:'安徽',city:'黃山',region:'華東',date:'2027-03-20',deadline:'2026-12-31',status:'soon',utmb:false,nearRank:5,recommended:false,travel:'飛行約 2 小時',weather:'6–15°C',
+  reasons:['春季賽'],categories:[{km:20,elev:1000,label:'20K'},{km:45,elev:2500,label:'45K'},{km:75,elev:4600,label:'75K'}]},
+ {id:'nanao',name:'南澳島海岸越野',province:'廣東',city:'汕頭',region:'華南',date:'2026-08-29',deadline:'2026-07-25',status:'open',utmb:false,nearRank:0,recommended:true,travel:'高鐵約 3 小時',weather:'25–31°C',
+  reasons:['廣東省內','50K','短途週末賽'],categories:[{km:10,elev:300,label:'10K'},{km:22,elev:900,label:'22K'},{km:50,elev:2300,label:'50K'}]},
+ {id:'dali',name:'大理蒼山越野賽',province:'雲南',city:'大理',region:'西南',date:'2027-05-16',deadline:'2027-02-28',status:'soon',utmb:true,nearRank:6,recommended:false,travel:'飛行約 2.5 小時',weather:'12–23°C',
+  reasons:['高海拔'],categories:[{km:35,elev:1800,label:'35K'},{km:70,elev:4200,label:'70K'},{km:105,elev:6800,label:'105K'}]}
+];
+const distanceBands=[{key:'all',label:'全部',min:0,max:999},{key:'10-20',label:'10–20K',min:10,max:20},{key:'20-50',label:'20–50K',min:20,max:50},{key:'50-70',label:'50–70K',min:50,max:70},{key:'70-100',label:'70–100K',min:70,max:100},{key:'100+',label:'100K+',min:100,max:999}];
+const months=['全部','8月','9月','10月','11月','12月','2027年'];
+const regions=['全部','華南','西南','華東','港澳'];
+
+let selectedDistance='all',selectedMonth='全部',selectedRegion='全部',activeConds=new Set(),seasonTab='wishlist';
+let seasonState={shudao:'wishlist',translantau:'wishlist',nanao:'registered'};
+
+function daysUntil(iso){const now=new Date('2026-07-16T00:00:00'),d=new Date(iso+'T00:00:00');return Math.round((d-now)/86400000)}
+function statusText(r){const d=daysUntil(r.deadline);if(r.status==='soon')return'即將開放';if(d<0)return'已截止';if(d===0)return'今天截止';if(d<=7)return`剩 ${d} 天`;return'可報名'}
+function dateParts(iso){const d=new Date(iso+'T00:00:00');return{day:String(d.getDate()).padStart(2,'0'),month:`${d.getMonth()+1}月`}}
+function hasBand(r,key){const b=distanceBands.find(x=>x.key===key);return r.categories.some(c=>c.km>=b.min&&c.km<=b.max)}
+function filteredCategories(r){if(selectedDistance==='all')return r.categories;const b=distanceBands.find(x=>x.key===selectedDistance);return r.categories.filter(c=>c.km>=b.min&&c.km<=b.max)}
+function matchesMonth(r){if(selectedMonth==='全部')return true;if(selectedMonth==='2027年')return r.date.startsWith('2027');return Number(r.date.slice(5,7))===Number(selectedMonth.replace('月',''))}
+function raceCard(r){
+ const p=dateParts(r.date),cats=filteredCategories(r),did='detail-'+r.id;
+ return `<article class="race-card">
+  <div class="race-top">
+   <div class="datebox"><b>${p.day}</b><span>${p.month}</span></div>
+   <div class="race-main"><div class="race-name">${r.name}</div><div class="race-loc">${r.province} · ${r.city}</div>
+    <div class="tags"><span class="tag ${r.status==='soon'?'amber':daysUntil(r.deadline)<=7?'amber':'green'}">${statusText(r)}</span>${r.utmb?'<span class="tag blue">UTMB／積分</span>':''}<span class="tag">${cats.map(c=>c.label).join(' · ')}</span></div>
+   </div>
+   <button class="star ${seasonState[r.id]?'on':''}" onclick="toggleWishlist('${r.id}')">★</button>
+  </div>
+  <div class="card-actions"><button class="primary" onclick="openDetail('${r.id}')">查看詳情</button><button class="secondary" onclick="toggleDetails('${did}')">快速展開</button></div>
+  <div class="details" id="${did}">
+   ${cats.map(c=>`<div class="category"><div><b>${c.label}</b><small>爬升 ${c.elev}m${c.index?' · '+c.index:''}</small></div><div class="status">${statusText(r)}</div></div>`).join('')}
+  </div>
+ </article>`
+}
+function renderHome(){
+ recoScroll.innerHTML=races.filter(r=>r.recommended).map(r=>`<article class="reco-card">
+   <h3>${r.name}</h3><div class="loc">${r.province} · ${r.city} · ${dateParts(r.date).month}${dateParts(r.date).day}日</div>
+   <div class="reason-list">${r.reasons.map(x=>`<span class="reason">✓ ${x}</span>`).join('')}</div>
+   <div class="reco-footer"><span class="score">推薦度 4.8 / 5</span><button onclick="openDetail('${r.id}')">查看詳情</button></div>
+  </article>`).join('');
+ homeDistances.innerHTML=distanceBands.slice(1).map(b=>`<button class="distance-pill" onclick="homeDistance('${b.key}')">${b.label}</button>`).join('');
+ seasonCount.textContent=Object.keys(seasonState).length;
+}
+function renderControls(){
+ distanceChips.innerHTML=distanceBands.map(b=>`<button class="chip ${selectedDistance===b.key?'active':''}" onclick="setDistance('${b.key}')">${b.label}</button>`).join('');
+ monthChips.innerHTML=months.map(m=>`<button class="chip ${selectedMonth===m?'active':''}" onclick="setMonth('${m}')">${m}</button>`).join('');
+ regionChips.innerHTML=regions.map(r=>`<button class="chip ${selectedRegion===r?'active':''}" onclick="setRegion('${r}')">${r}</button>`).join('');
+ distanceSummary.textContent=distanceBands.find(x=>x.key===selectedDistance).label;
+ monthSummary.textContent=selectedMonth;
+ regionSummary.textContent=selectedRegion;
+ specialSummary.textContent=activeConds.size?[...activeConds].map(x=>x==='open'?'現在可報':x==='utmb'?'UTMB／積分':'華南優先').join('、'):'未選';
+ filterSummary.innerHTML=[
+   selectedDistance!=='all'?distanceBands.find(x=>x.key===selectedDistance).label:'',
+   selectedMonth!=='全部'?selectedMonth:'',
+   selectedRegion!=='全部'?selectedRegion:'',
+   ...[...activeConds].map(x=>x==='open'?'現在可報':x==='utmb'?'UTMB／積分':'華南優先')
+ ].filter(Boolean).map(x=>`<span class="summary-chip">${x}</span>`).join('')||'<span class="summary-chip">未套用篩選</span>';
+}
+function renderDiscover(){
+ const q=(searchInput.value||'').toLowerCase(),sort=sortSelect.value,status=statusSelect.value;
+ let arr=races.filter(r=>{
+  if(q&&!`${r.name}${r.province}${r.city}`.toLowerCase().includes(q))return false;
+  if(selectedDistance!=='all'&&!hasBand(r,selectedDistance))return false;
+  if(!matchesMonth(r))return false;
+  if(selectedRegion!=='全部'&&r.region!==selectedRegion)return false;
+  if(activeConds.has('open')&&(r.status!=='open'||daysUntil(r.deadline)<0))return false;
+  if(activeConds.has('utmb')&&!r.utmb)return false;
+  if(activeConds.has('near')&&!['華南','港澳'].includes(r.region))return false;
+  if(status&&r.status!==status)return false;
+  return true;
+ });
+ if(sort==='dateAsc')arr.sort((a,b)=>a.date.localeCompare(b.date));
+ if(sort==='dateDesc')arr.sort((a,b)=>b.date.localeCompare(a.date));
+ if(sort==='deadlineAsc')arr.sort((a,b)=>a.deadline.localeCompare(b.deadline));
+ if(sort==='deadlineDesc')arr.sort((a,b)=>b.deadline.localeCompare(a.deadline));
+ if(sort==='near')arr.sort((a,b)=>a.nearRank-b.nearRank);
+ resultCount.textContent=`找到 ${arr.length} 場賽事`;
+ discoverList.innerHTML=arr.length?arr.map(raceCard).join(''):'<div class="empty">沒有符合條件的賽事</div>';
+ renderControls();
+}
+function renderSeason(){
+ const arr=races.filter(r=>seasonState[r.id]===seasonTab);
+ seasonList.innerHTML=arr.length?arr.map(raceCard).join(''):'<div class="empty">目前沒有賽事</div>';
+}
+function switchScreen(id,btn){
+ document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));document.getElementById(id).classList.add('active');
+ document.querySelectorAll('.bottom-nav button').forEach(b=>b.classList.remove('active'));
+ const t=btn||document.querySelector(`.bottom-nav button[data-screen="${id}"]`);if(t)t.classList.add('active');
+ if(id==='discover')renderDiscover();if(id==='season')renderSeason();window.scrollTo(0,0);
+}
+function toggleFilterPanel(){filterPanel.style.display=filterPanel.style.display==='none'?'block':'none'}
+function toggleAcc(id){document.getElementById(id).classList.toggle('open')}
+function setDistance(k){selectedDistance=k;renderDiscover()}
+function setMonth(m){selectedMonth=m;renderDiscover()}
+function setRegion(r){selectedRegion=r;renderDiscover()}
+function toggleCond(el){const k=el.dataset.cond;activeConds.has(k)?activeConds.delete(k):activeConds.add(k);el.classList.toggle('active');renderDiscover()}
+function resetFilters(){selectedDistance='all';selectedMonth='全部';selectedRegion='全部';activeConds.clear();searchInput.value='';sortSelect.value='dateAsc';statusSelect.value='';document.querySelectorAll('[data-cond]').forEach(x=>x.classList.remove('active'));renderDiscover()}
+function toggleDetails(id){document.getElementById(id).classList.toggle('open')}
+function toggleWishlist(id){if(seasonState[id])delete seasonState[id];else seasonState[id]='wishlist';renderHome();renderDiscover();renderSeason()}
+function setSeasonTab(el){document.querySelectorAll('.season-tab').forEach(x=>x.classList.remove('active'));el.classList.add('active');seasonTab=el.dataset.season;renderSeason()}
+function goDiscover(mode){switchScreen('discover');if(mode==='closing'){activeConds.add('open');sortSelect.value='deadlineAsc'}if(mode==='open')activeConds.add('open');if(mode==='near')sortSelect.value='near';if(mode==='utmb')activeConds.add('utmb');if(mode==='recommended'){activeConds.add('utmb');selectedDistance='50-70'}document.querySelectorAll('[data-cond]').forEach(x=>x.classList.toggle('active',activeConds.has(x.dataset.cond)));renderDiscover()}
+function homeDistance(k){selectedDistance=k;switchScreen('discover');renderDiscover()}
+function openRace(id){switchScreen('discover');searchInput.value=races.find(r=>r.id===id).name;renderDiscover()}
+
+function openDetail(id){
+ const r=races.find(x=>x.id===id),p=dateParts(r.date);
+ detailScreen.innerHTML=`<div class="detail-hero">
+  <div class="detail-nav"><button class="back-btn" onclick="closeDetail()">←</button><button class="share-btn">↗</button></div>
+  <div class="detail-title"><h2>${r.name}</h2><p>${r.province} · ${r.city} · ${p.month}${p.day}日</p></div>
+ </div>
+ <div class="detail-body">
+  <div class="info-grid">
+   <div class="info-card"><span>報名狀態</span><b>${statusText(r)}</b></div>
+   <div class="info-card"><span>交通</span><b>${r.travel||'待補充'}</b></div>
+   <div class="info-card"><span>預估天氣</span><b>${r.weather||'待補充'}</b></div>
+   <div class="info-card"><span>賽事類型</span><b>${r.utmb?'UTMB／積分':'一般越野賽'}</b></div>
+  </div>
+  <div class="detail-section"><h3>組別</h3>${r.categories.map(c=>`<div class="detail-category"><div class="detail-category-top"><b>${c.label}</b><span>${statusText(r)}</span></div><small>爬升 ${c.elev}m${c.index?' · '+c.index:''}</small></div>`).join('')}</div>
+  <div class="detail-section"><h3>為什麼推薦</h3><div class="reason-list">${r.reasons.map(x=>`<span class="reason">✓ ${x}</span>`).join('')}</div></div>
+  <div class="detail-section"><h3>重要日期</h3><div class="pref-row"><span>比賽日期</span><b>${r.date}</b></div><div class="pref-row"><span>報名截止</span><b>${r.deadline}</b></div></div>
+ </div>
+ <div class="detail-action"><button>前往官方報名</button></div>`;
+ detailScreen.classList.add('open');document.body.style.overflow='hidden';
+}
+function closeDetail(){detailScreen.classList.remove('open');document.body.style.overflow=''}
+renderHome();renderControls();renderDiscover();renderSeason();
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "id": "utmb-world-series",
+      "name": "UTMB World Series",
+      "type": "official-web",
+      "enabled": false,
+      "note": "待加入官方頁面解析器；只有核驗成功後才自動寫入。"
+    },
+    {
+      "id": "itra-calendar",
+      "name": "ITRA Calendar",
+      "type": "official-web",
+      "enabled": false,
+      "note": "待加入官方頁面解析器。"
+    },
+    {
+      "id": "public-race-platforms",
+      "name": "中國公開賽事平台",
+      "type": "public-web",
+      "enabled": false,
+      "note": "網站格式不穩定，需逐一建立解析器；微信小程序無法保證自動抓取。"
+    }
+  ]
+}

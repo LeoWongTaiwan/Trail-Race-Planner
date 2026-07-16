@@ -118,7 +118,7 @@ body{padding-bottom:90px}
   </div>
 
   <section class="panel dashboard">
-    <div class="eyebrow">今天 · 7月16日</div>
+    <div class="eyebrow" id="todayLabel">今天</div>
     <h2>有 3 場比賽需要你近期決定</h2>
     <div class="stats">
       <div class="stat"><span>7天內截止</span><b>3</b></div>
@@ -261,22 +261,8 @@ body{padding-bottom:90px}
 </nav>
 
 <script>
-const races=[
- {id:'shudao',name:'Shudao by UTMB',province:'四川',city:'廣元',region:'西南',date:'2026-11-07',deadline:'2026-07-20',status:'open',utmb:true,nearRank:7,recommended:true,travel:'飛行約 2.5 小時',weather:'8–16°C',
-  reasons:['100K','UTMB World Series','適合年度 A Race'],categories:[{km:20,elev:900,label:'20K',index:'UTMB 20K'},{km:50,elev:2800,label:'50K',index:'UTMB 50K'},{km:100,elev:5600,label:'100K',index:'UTMB 100K'}]},
- {id:'wuyishan',name:'武夷山越野賽',province:'福建',city:'武夷山',region:'華南',date:'2026-10-18',deadline:'2026-08-15',status:'open',utmb:true,nearRank:3,recommended:true,travel:'高鐵約 5 小時',weather:'15–24°C',
-  reasons:['離廣州較近','50K / 100K','UTMB Index'],categories:[{km:15,elev:700,label:'15K'},{km:30,elev:1600,label:'30K'},{km:50,elev:3200,label:'50K',index:'ITRA 2'},{km:100,elev:6100,label:'100K',index:'UTMB 100K'}]},
- {id:'translantau',name:'TransLantau by UTMB',province:'香港',city:'大嶼山',region:'港澳',date:'2026-12-05',deadline:'2026-09-30',status:'open',utmb:true,nearRank:1,recommended:true,travel:'高鐵約 1 小時',weather:'17–24°C',
-  reasons:['交通最方便','UTMB World Series','100K+'],categories:[{km:25,elev:1400,label:'25K'},{km:50,elev:3000,label:'50K'},{km:100,elev:5800,label:'100K'},{km:120,elev:7000,label:'120K'}]},
- {id:'yangshuo',name:'陽朔喀斯特越野',province:'廣西',city:'桂林',region:'華南',date:'2026-09-12',deadline:'2026-07-17',status:'open',utmb:false,nearRank:2,recommended:false,travel:'高鐵約 3 小時',weather:'22–31°C',
-  reasons:['明天截止'],categories:[{km:12,elev:400,label:'12K'},{km:30,elev:1200,label:'30K'},{km:60,elev:2900,label:'60K'}]},
- {id:'huangshan',name:'黃山山徑越野挑戰賽',province:'安徽',city:'黃山',region:'華東',date:'2027-03-20',deadline:'2026-12-31',status:'soon',utmb:false,nearRank:5,recommended:false,travel:'飛行約 2 小時',weather:'6–15°C',
-  reasons:['春季賽'],categories:[{km:20,elev:1000,label:'20K'},{km:45,elev:2500,label:'45K'},{km:75,elev:4600,label:'75K'}]},
- {id:'nanao',name:'南澳島海岸越野',province:'廣東',city:'汕頭',region:'華南',date:'2026-08-29',deadline:'2026-07-25',status:'open',utmb:false,nearRank:0,recommended:true,travel:'高鐵約 3 小時',weather:'25–31°C',
-  reasons:['廣東省內','50K','短途週末賽'],categories:[{km:10,elev:300,label:'10K'},{km:22,elev:900,label:'22K'},{km:50,elev:2300,label:'50K'}]},
- {id:'dali',name:'大理蒼山越野賽',province:'雲南',city:'大理',region:'西南',date:'2027-05-16',deadline:'2027-02-28',status:'soon',utmb:true,nearRank:6,recommended:false,travel:'飛行約 2.5 小時',weather:'12–23°C',
-  reasons:['高海拔'],categories:[{km:35,elev:1800,label:'35K'},{km:70,elev:4200,label:'70K'},{km:105,elev:6800,label:'105K'}]}
-];
+let races=[];
+let dataMeta={};
 const distanceBands=[{key:'all',label:'全部',min:0,max:999},{key:'10-20',label:'10–20K',min:10,max:20},{key:'20-50',label:'20–50K',min:20,max:50},{key:'50-70',label:'50–70K',min:50,max:70},{key:'70-100',label:'70–100K',min:70,max:100},{key:'100+',label:'100K+',min:100,max:999}];
 const months=['全部','8月','9月','10月','11月','12月','2027年'];
 const regions=['全部','華南','西南','華東','港澳'];
@@ -284,7 +270,7 @@ const regions=['全部','華南','西南','華東','港澳'];
 let selectedDistance='all',selectedMonth='全部',selectedRegion='全部',activeConds=new Set(),seasonTab='wishlist';
 let seasonState={shudao:'wishlist',translantau:'wishlist',nanao:'registered'};
 
-function daysUntil(iso){const now=new Date('2026-07-16T00:00:00'),d=new Date(iso+'T00:00:00');return Math.round((d-now)/86400000)}
+function daysUntil(iso){const now=new Date();now.setHours(0,0,0,0);const d=new Date(iso+'T00:00:00');return Math.round((d-now)/86400000)}
 function statusText(r){const d=daysUntil(r.deadline);if(r.status==='soon')return'即將開放';if(d<0)return'已截止';if(d===0)return'今天截止';if(d<=7)return`剩 ${d} 天`;return'可報名'}
 function dateParts(iso){const d=new Date(iso+'T00:00:00');return{day:String(d.getDate()).padStart(2,'0'),month:`${d.getMonth()+1}月`}}
 function hasBand(r,key){const b=distanceBands.find(x=>x.key===key);return r.categories.some(c=>c.km>=b.min&&c.km<=b.max)}
@@ -397,7 +383,25 @@ function openDetail(id){
  detailScreen.classList.add('open');document.body.style.overflow='hidden';
 }
 function closeDetail(){detailScreen.classList.remove('open');document.body.style.overflow=''}
-renderHome();renderControls();renderDiscover();renderSeason();
+
+async function initApp(){
+  try{
+    const response=await fetch('data/races.json',{cache:'no-store'});
+    if(!response.ok)throw new Error('資料讀取失敗');
+    const payload=await response.json();
+    races=payload.races||[];
+    dataMeta=payload.meta||{};
+    const now=new Date();
+    todayLabel.textContent='今天 · '+now.toLocaleDateString('zh-TW',{month:'long',day:'numeric'});
+    dataFreshness.textContent=`資料更新：${dataMeta.lastUpdated||'待確認'} · ${races.length} 場`;
+    renderHome();renderControls();renderDiscover();renderSeason();
+  }catch(error){
+    dataFreshness.textContent='資料載入失敗，請重新整理';
+    console.error(error);
+  }
+}
+initApp();
+
 </script>
 </body>
 </html>

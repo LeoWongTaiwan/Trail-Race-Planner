@@ -1,10 +1,9 @@
 {
-  "updatedAt": "2026-07-16T17:14:49Z",
-  "windowStart": "2026-07-16",
-  "windowEnd": "2027-07-16",
-  "raceCount": 7,
-  "statusChanges": [],
-  "removedOutsideWindow": [],
-  "newRaces": [],
-  "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."
+  "updatedAt": "2026-07-17",
+  "raceCount": 129,
+  "newRaces": [
+    "2026山径探索7月夏训赛（南京）",
+    "2026拓野千岛湖·寻屿夏季越野赛"
+  ],
+  "note": "V1 真實資料種子版"
 }

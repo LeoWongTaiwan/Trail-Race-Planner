@@ -121,8 +121,8 @@ body{padding-bottom:90px}
     <div class="eyebrow" id="todayLabel">今天</div>
     <h2>有 3 場比賽需要你近期決定</h2>
     <div class="stats">
-      <div class="stat"><span>7天內截止</span><b>3</b></div>
-      <div class="stat"><span>新開放</span><b>5</b></div>
+      <div class="stat"><span>7天內截止</span><b id="closingCount">0</b></div>
+      <div class="stat"><span>現在可報</span><b id="openCount">0</b></div>
       <div class="stat"><span>我的賽季</span><b id="seasonCount">3</b></div>
     </div>
     <div class="priority">
@@ -288,12 +288,16 @@ function raceCard(r){
   </div>
   <div class="card-actions"><button class="primary" onclick="openDetail('${r.id}')">查看詳情</button><button class="secondary" onclick="toggleDetails('${did}')">快速展開</button></div>
   <div class="details" id="${did}">
-   ${cats.map(c=>`<div class="category"><div><b>${c.label}</b><small>爬升 ${c.elev}m${c.index?' · '+c.index:''}</small></div><div class="status">${statusText(r)}</div></div>`).join('')}
+   ${cats.map(c=>`<div class="category"><div><b>${c.label}</b><small>${c.elev!=null?'爬升 '+c.elev+'m':'爬升待核驗'}${c.index?' · '+c.index:''}</small></div><div class="status">${statusText(r)}</div></div>`).join('')}
   </div>
  </article>`
 }
 function renderHome(){
- recoScroll.innerHTML=races.filter(r=>r.recommended).map(r=>`<article class="reco-card">
+ const confirmedOpen=races.filter(r=>r.status==='open');
+ const closing=confirmedOpen.filter(r=>daysUntil(r.deadline)>=0&&daysUntil(r.deadline)<=7).sort((a,b)=>a.deadline.localeCompare(b.deadline));
+ closingCount.textContent=closing.length;openCount.textContent=confirmedOpen.length;
+ if(closing.length){const u=closing[0],cats=u.categories.filter(c=>c.km>0).map(c=>c.label).join(' · ');urgentTitle.textContent='最緊急：'+u.name;urgentSubtitle.textContent=statusText(u)+(cats?' · '+cats:'');}
+ recoScroll.innerHTML=races.filter(r=>r.recommended&&['open','soon'].includes(r.status)).slice(0,12).map(r=>`<article class="reco-card">
    <h3>${r.name}</h3><div class="loc">${r.province} · ${r.city} · ${dateParts(r.date).month}${dateParts(r.date).day}日</div>
    <div class="reason-list">${r.reasons.map(x=>`<span class="reason">✓ ${x}</span>`).join('')}</div>
    <div class="reco-footer"><span class="score">推薦度 4.8 / 5</span><button onclick="openDetail('${r.id}')">查看詳情</button></div>
@@ -375,7 +379,7 @@ function openDetail(id){
    <div class="info-card"><span>預估天氣</span><b>${r.weather||'待補充'}</b></div>
    <div class="info-card"><span>賽事類型</span><b>${r.utmb?'UTMB／積分':'一般越野賽'}</b></div>
   </div>
-  <div class="detail-section"><h3>組別</h3>${r.categories.map(c=>`<div class="detail-category"><div class="detail-category-top"><b>${c.label}</b><span>${statusText(r)}</span></div><small>爬升 ${c.elev}m${c.index?' · '+c.index:''}</small></div>`).join('')}</div>
+  <div class="detail-section"><h3>組別</h3>${r.categories.map(c=>`<div class="detail-category"><div class="detail-category-top"><b>${c.label}</b><span>${statusText(r)}</span></div><small>${c.elev!=null?'爬升 '+c.elev+'m':'爬升待核驗'}${c.index?' · '+c.index:''}</small></div>`).join('')}</div>
   <div class="detail-section"><h3>為什麼推薦</h3><div class="reason-list">${r.reasons.map(x=>`<span class="reason">✓ ${x}</span>`).join('')}</div></div>
   <div class="detail-section"><h3>重要日期</h3><div class="pref-row"><span>比賽日期</span><b>${r.date}</b></div><div class="pref-row"><span>報名截止</span><b>${r.deadline}</b></div></div>
  </div>

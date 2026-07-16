@@ -1,28 +1,28 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-16T17:25:14Z",
-    "windowStart": "2026-07-16",
-    "windowEnd": "2027-07-16",
+    "lastUpdated": "2026-07-17",
+    "windowStart": "2026-07-17",
+    "windowEnd": "2027-07-17",
     "raceCount": 129,
     "openCount": 51,
     "pendingCount": 24,
-    "updateMode": "scheduled-status-refresh",
+    "updateMode": "real-data-seed-plus-scheduled-status-refresh",
     "note": "以 2026-07-01 完整底表為基礎，依 2026-07-17 重算狀態，並補入最新公開報名賽事。未重新核驗者不視為可報名。"
   },
   "races": [
     {
-      "id": "c14bc4afd57a19",
-      "name": "2026“森呼吸 林距离”寻找江苏最美森林步道暨纵情山野青少年系列赛-老母猪沟站",
-      "province": "江苏",
-      "city": "南京市浦口区",
-      "region": "華東",
+      "id": "a6065629d88bd7",
+      "name": "2026斯巴达勇士赛-长春站",
+      "province": "吉林",
+      "city": "长春市",
+      "region": "東北",
       "date": "2026-07-18",
       "registrationOpen": "",
-      "deadline": "2026-07-12",
+      "deadline": "2026-07-11",
       "status": "closed",
       "sourceStatus": "报名中",
       "utmb": false,
-      "nearRank": 16,
+      "nearRank": 25,
       "recommended": false,
       "travel": "待核驗",
       "weather": "賽前一週更新",
@@ -33,16 +33,15 @@
         {
           "km": 0,
           "elev": null,
-          "label": "青少年/森林步道，公里数待报名页核验",
+          "label": "障碍赛/越野，公里数待核验",
           "index": ""
         }
       ],
-      "points": "待核验",
+      "points": "否/待核验",
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "7/1新增：最酷7月页显示报名中。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "非传统越野跑，保留观察"
     },
     {
       "id": "d548295ca28117",
@@ -75,8 +74,40 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "广州夏季山地日落跑",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "广州夏季山地日落跑"
+    },
+    {
+      "id": "c14bc4afd57a19",
+      "name": "2026“森呼吸 林距离”寻找江苏最美森林步道暨纵情山野青少年系列赛-老母猪沟站",
+      "province": "江苏",
+      "city": "南京市浦口区",
+      "region": "華東",
+      "date": "2026-07-18",
+      "registrationOpen": "",
+      "deadline": "2026-07-12",
+      "status": "closed",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 16,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "青少年/森林步道，公里数待报名页核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "7/1新增：最酷7月页显示报名中。"
     },
     {
       "id": "9469cc894bf8ac",
@@ -109,42 +140,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "7/1新增：已过报名截止，保留作赛历参考。",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "a6065629d88bd7",
-      "name": "2026斯巴达勇士赛-长春站",
-      "province": "吉林",
-      "city": "长春市",
-      "region": "東北",
-      "date": "2026-07-18",
-      "registrationOpen": "",
-      "deadline": "2026-07-11",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 25,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "障碍赛/越野，公里数待核验",
-          "index": ""
-        }
-      ],
-      "points": "否/待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "非传统越野跑，保留观察",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "7/1新增：已过报名截止，保留作赛历参考。"
     },
     {
       "id": "43674f7aa18a22",
@@ -177,42 +173,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "首百训练赛",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "b3f895c6969b23",
-      "name": "2026户外特工“山顶见”越野跑训练赛——五常凤凰山站",
-      "province": "黑龙江",
-      "city": "哈尔滨市五常市",
-      "region": "東北",
-      "date": "2026-07-19",
-      "registrationOpen": "",
-      "deadline": "2026-07-10",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 26,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "训练赛；7/1核验：报名截止从上版 6/30 延后至 7/10。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "首百训练赛"
     },
     {
       "id": "701e8b6cd0f8a7",
@@ -245,8 +206,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "7/1新增：条目显示延期至7/19。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "7/1新增：条目显示延期至7/19。"
     },
     {
       "id": "2f8415bd710c5d",
@@ -279,8 +239,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "训练营/例跑",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "训练营/例跑"
     },
     {
       "id": "726649dce54eab",
@@ -313,8 +272,40 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "7/1新增：报名截止为当天晚间，需立即确认。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "7/1新增：报名截止为当天晚间，需立即确认。"
+    },
+    {
+      "id": "b3f895c6969b23",
+      "name": "2026户外特工“山顶见”越野跑训练赛——五常凤凰山站",
+      "province": "黑龙江",
+      "city": "哈尔滨市五常市",
+      "region": "東北",
+      "date": "2026-07-19",
+      "registrationOpen": "",
+      "deadline": "2026-07-10",
+      "status": "closed",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 26,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "训练赛；7/1核验：报名截止从上版 6/30 延后至 7/10。"
     },
     {
       "id": "8f8bcdc037c36a",
@@ -347,8 +338,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "需查官方渠道"
     },
     {
       "id": "74aea5a7357ac2",
@@ -381,178 +371,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "高海拔新赛",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "61dcafed6797d9",
-      "name": "2026凉都六盘水城市山地越野赛",
-      "province": "贵州",
-      "city": "六盘水市",
-      "region": "西南",
-      "date": "2026-07-25",
-      "registrationOpen": "",
-      "deadline": "2026-06-30",
-      "status": "closed",
-      "sourceStatus": "已截止",
-      "utmb": false,
-      "nearRank": 8,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "百公里/多组别待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "首次升级为百公里；7/1核验：报名截止日已过，最酷显示已截止。",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "a70f9b8fae08b4",
-      "name": "2026山径探索7月夏训赛（南京）",
-      "province": "江苏",
-      "city": "南京市浦口区",
-      "region": "華東",
-      "date": "2026-07-25",
-      "registrationOpen": "",
-      "deadline": "2026-07-21",
-      "status": "open",
-      "sourceStatus": "官方聚合頁顯示可報名",
-      "utmb": false,
-      "nearRank": 16,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "近期公開報名"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "組別待核驗",
-          "index": ""
-        }
-      ],
-      "points": "待核驗",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&where=jiangzhe",
-      "verifiedAt": "2026-07-16",
-      "dataQuality": "中",
-      "notes": "本次更新新增；以報名頁最新狀態為準",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "40c68b0c39aa8f",
-      "name": "2026武汉九峰日落跑",
-      "province": "湖北",
-      "city": "武汉市洪山区",
-      "region": "華中",
-      "date": "2026-07-25",
-      "registrationOpen": "",
-      "deadline": "2026-07-20",
-      "status": "open",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 10,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "轻越野，公里数待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "日落跑",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "d293bfe70d0b73",
-      "name": "2026野门FKT硬核局",
-      "province": "江苏",
-      "city": "南京市玄武区",
-      "region": "華東",
-      "date": "2026-07-25",
-      "registrationOpen": "",
-      "deadline": "2026-07-20",
-      "status": "open",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 16,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "FKT/硬核局，公里数待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "社群/挑战赛性质",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "e83259496ea1cf",
-      "name": "奔跑贵阳・2026阳明问道100越野赛",
-      "province": "贵州",
-      "city": "贵阳市修文县",
-      "region": "西南",
-      "date": "2026-07-25",
-      "registrationOpen": "",
-      "deadline": "2026-06-30",
-      "status": "closed",
-      "sourceStatus": "已截止",
-      "utmb": false,
-      "nearRank": 8,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "百公里/多组别待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "注意今天截止（截至6/25）；7/1核验：报名截止从上版 6/25 延后至 6/30，目前已截止。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "高海拔新赛"
     },
     {
       "id": "cb44428c2a0f11",
@@ -585,8 +404,172 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "云南茶马系列",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "云南茶马系列"
+    },
+    {
+      "id": "a70f9b8fae08b4",
+      "name": "2026山径探索7月夏训赛（南京）",
+      "province": "江苏",
+      "city": "南京市浦口区",
+      "region": "華東",
+      "date": "2026-07-25",
+      "registrationOpen": "",
+      "deadline": "2026-07-21",
+      "status": "open",
+      "sourceStatus": "官方聚合頁顯示可報名",
+      "utmb": false,
+      "nearRank": 16,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "近期公開報名"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "組別待核驗",
+          "index": ""
+        }
+      ],
+      "points": "待核驗",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&where=jiangzhe",
+      "verifiedAt": "2026-07-16",
+      "dataQuality": "中",
+      "notes": "本次更新新增；以報名頁最新狀態為準"
+    },
+    {
+      "id": "d293bfe70d0b73",
+      "name": "2026野门FKT硬核局",
+      "province": "江苏",
+      "city": "南京市玄武区",
+      "region": "華東",
+      "date": "2026-07-25",
+      "registrationOpen": "",
+      "deadline": "2026-07-20",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 16,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "FKT/硬核局，公里数待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "社群/挑战赛性质"
+    },
+    {
+      "id": "40c68b0c39aa8f",
+      "name": "2026武汉九峰日落跑",
+      "province": "湖北",
+      "city": "武汉市洪山区",
+      "region": "華中",
+      "date": "2026-07-25",
+      "registrationOpen": "",
+      "deadline": "2026-07-20",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 10,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "轻越野，公里数待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "日落跑"
+    },
+    {
+      "id": "61dcafed6797d9",
+      "name": "2026凉都六盘水城市山地越野赛",
+      "province": "贵州",
+      "city": "六盘水市",
+      "region": "西南",
+      "date": "2026-07-25",
+      "registrationOpen": "",
+      "deadline": "2026-06-30",
+      "status": "closed",
+      "sourceStatus": "已截止",
+      "utmb": false,
+      "nearRank": 8,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "百公里/多组别待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "首次升级为百公里；7/1核验：报名截止日已过，最酷显示已截止。"
+    },
+    {
+      "id": "e83259496ea1cf",
+      "name": "奔跑贵阳・2026阳明问道100越野赛",
+      "province": "贵州",
+      "city": "贵阳市修文县",
+      "region": "西南",
+      "date": "2026-07-25",
+      "registrationOpen": "",
+      "deadline": "2026-06-30",
+      "status": "closed",
+      "sourceStatus": "已截止",
+      "utmb": false,
+      "nearRank": 8,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "百公里/多组别待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "注意今天截止（截至6/25）；7/1核验：报名截止从上版 6/25 延后至 6/30，目前已截止。"
     },
     {
       "id": "258898c74d9b0c",
@@ -619,246 +602,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "训练赛",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "653bb1d1f61242",
-      "name": "2026崇礼云巅之径越野赛（去撒野赛事）",
-      "province": "河北",
-      "city": "张家口市崇礼区",
-      "region": "華北",
-      "date": "2026-07-26",
-      "registrationOpen": "",
-      "deadline": "2026-07-06",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 20,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "与喜鹊梁同日同地，需核对关系",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "0b1519e3d6ee55",
-      "name": "2026崇礼喜鹊梁越野赛（去撒野赛事）",
-      "province": "河北",
-      "city": "张家口市崇礼区",
-      "region": "華北",
-      "date": "2026-07-26",
-      "registrationOpen": "",
-      "deadline": "2026-07-06",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 20,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "与云巅之径同日同地，需确认不同项目",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "2e583e635dde47",
-      "name": "2026年安徽户外LNT四季江淮徒步大会・7月・霍山站・龙井峡",
-      "province": "安徽",
-      "city": "六安市霍山县",
-      "region": "華東",
-      "date": "2026-07-26",
-      "registrationOpen": "",
-      "deadline": "2026-03-27",
-      "status": "closed",
-      "sourceStatus": "已截止",
-      "utmb": false,
-      "nearRank": 14,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "徒步/越野，公里数待核验",
-          "index": ""
-        }
-      ],
-      "points": "否/待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "LNT徒步大会，不一定是越野跑",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "e7c4b9d3b0e9a7",
-      "name": "2026百里杜鹃越野跑精英挑战赛",
-      "province": "贵州",
-      "city": "毕节市",
-      "region": "西南",
-      "date": "2026-07-26",
-      "registrationOpen": "",
-      "deadline": "2026-06-25",
-      "status": "closed",
-      "sourceStatus": "已截止/待核验",
-      "utmb": false,
-      "nearRank": 8,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "注意今天截止（截至6/25）；7/1自动标注：原报名截止日已过，但未在本轮找到延期信息，需二次核验。",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "ebe0057f2c1dae",
-      "name": "2026趣野少年山径赛·状元岭站",
-      "province": "福建",
-      "city": "福州市",
-      "region": "華南",
-      "date": "2026-07-26",
-      "registrationOpen": "",
-      "deadline": "2026-07-10",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 5,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "離廣州較近"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "青少年山径赛，公里数待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "青少年赛",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "390be0b11520f9",
-      "name": "2026道孚·墨石星际跑越野赛",
-      "province": "四川",
-      "city": "甘孜州道孚县",
-      "region": "西南",
-      "date": "2026-07-26",
-      "registrationOpen": "",
-      "deadline": "2026-07-10",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 12,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "高海拔新赛；7/1核验：报名窗口显示开放，截止至 7/10。",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "b58f2ed3a9b998",
-      "name": "2026野性祁连越野跑",
-      "province": "甘肃",
-      "city": "武威市天祝县",
-      "region": "西北",
-      "date": "2026-07-26",
-      "registrationOpen": "",
-      "deadline": "",
-      "status": "pending",
-      "sourceStatus": "未显示截止/待确认",
-      "utmb": false,
-      "nearRank": 29,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "训练赛"
     },
     {
       "id": "ffe1aaae615053",
@@ -891,33 +635,32 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "夜跑/荧光跑",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "夜跑/荧光跑"
     },
     {
-      "id": "6e3fd7b98f5d8f",
-      "name": "凯乐石FUGA训练赛2026深圳凤凰山越野挑战赛",
-      "province": "广东",
-      "city": "深圳市宝安区",
-      "region": "華南",
+      "id": "390be0b11520f9",
+      "name": "2026道孚·墨石星际跑越野赛",
+      "province": "四川",
+      "city": "甘孜州道孚县",
+      "region": "西南",
       "date": "2026-07-26",
       "registrationOpen": "",
-      "deadline": "2026-07-14",
+      "deadline": "2026-07-10",
       "status": "closed",
       "sourceStatus": "报名中",
       "utmb": false,
-      "nearRank": 0,
+      "nearRank": 12,
       "recommended": false,
       "travel": "待核驗",
       "weather": "賽前一週更新",
       "reasons": [
-        "離廣州較近"
+        "未來 365 天賽事"
       ],
       "categories": [
         {
           "km": 0,
           "elev": null,
-          "label": "FUGA训练赛/越野挑战赛，公里数待报名页核验",
+          "label": "未公开/待核验",
           "index": ""
         }
       ],
@@ -925,8 +668,40 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "7/1新增：最酷7月页新增/补充。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "高海拔新赛；7/1核验：报名窗口显示开放，截止至 7/10。"
+    },
+    {
+      "id": "2e583e635dde47",
+      "name": "2026年安徽户外LNT四季江淮徒步大会・7月・霍山站・龙井峡",
+      "province": "安徽",
+      "city": "六安市霍山县",
+      "region": "華東",
+      "date": "2026-07-26",
+      "registrationOpen": "",
+      "deadline": "2026-03-27",
+      "status": "closed",
+      "sourceStatus": "已截止",
+      "utmb": false,
+      "nearRank": 14,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "徒步/越野，公里数待核验",
+          "index": ""
+        }
+      ],
+      "points": "否/待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "LNT徒步大会，不一定是越野跑"
     },
     {
       "id": "807e4acae43326",
@@ -959,8 +734,205 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "西宏系列分站",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "西宏系列分站"
+    },
+    {
+      "id": "6e3fd7b98f5d8f",
+      "name": "凯乐石FUGA训练赛2026深圳凤凰山越野挑战赛",
+      "province": "广东",
+      "city": "深圳市宝安区",
+      "region": "華南",
+      "date": "2026-07-26",
+      "registrationOpen": "",
+      "deadline": "2026-07-14",
+      "status": "closed",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 0,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "離廣州較近"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "FUGA训练赛/越野挑战赛，公里数待报名页核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "7/1新增：最酷7月页新增/补充。"
+    },
+    {
+      "id": "653bb1d1f61242",
+      "name": "2026崇礼云巅之径越野赛（去撒野赛事）",
+      "province": "河北",
+      "city": "张家口市崇礼区",
+      "region": "華北",
+      "date": "2026-07-26",
+      "registrationOpen": "",
+      "deadline": "2026-07-06",
+      "status": "closed",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 20,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "与喜鹊梁同日同地，需核对关系"
+    },
+    {
+      "id": "0b1519e3d6ee55",
+      "name": "2026崇礼喜鹊梁越野赛（去撒野赛事）",
+      "province": "河北",
+      "city": "张家口市崇礼区",
+      "region": "華北",
+      "date": "2026-07-26",
+      "registrationOpen": "",
+      "deadline": "2026-07-06",
+      "status": "closed",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 20,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "与云巅之径同日同地，需确认不同项目"
+    },
+    {
+      "id": "b58f2ed3a9b998",
+      "name": "2026野性祁连越野跑",
+      "province": "甘肃",
+      "city": "武威市天祝县",
+      "region": "西北",
+      "date": "2026-07-26",
+      "registrationOpen": "",
+      "deadline": "",
+      "status": "pending",
+      "sourceStatus": "未显示截止/待确认",
+      "utmb": false,
+      "nearRank": 29,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "低",
+      "notes": "需查官方渠道"
+    },
+    {
+      "id": "ebe0057f2c1dae",
+      "name": "2026趣野少年山径赛·状元岭站",
+      "province": "福建",
+      "city": "福州市",
+      "region": "華南",
+      "date": "2026-07-26",
+      "registrationOpen": "",
+      "deadline": "2026-07-10",
+      "status": "closed",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 5,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "離廣州較近"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "青少年山径赛，公里数待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "青少年赛"
+    },
+    {
+      "id": "e7c4b9d3b0e9a7",
+      "name": "2026百里杜鹃越野跑精英挑战赛",
+      "province": "贵州",
+      "city": "毕节市",
+      "region": "西南",
+      "date": "2026-07-26",
+      "registrationOpen": "",
+      "deadline": "2026-06-25",
+      "status": "closed",
+      "sourceStatus": "已截止/待核验",
+      "utmb": false,
+      "nearRank": 8,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=7",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "注意今天截止（截至6/25）；7/1自动标注：原报名截止日已过，但未在本轮找到延期信息，需二次核验。"
     },
     {
       "id": "604ac0c7522a1b",
@@ -993,8 +965,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "7/1新增：最酷8月页显示报名中。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "7/1新增：最酷8月页显示报名中。"
     },
     {
       "id": "ec988a4517b662",
@@ -1027,8 +998,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "训练/拉练性质",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "训练/拉练性质"
     },
     {
       "id": "5271b91fab9ae8",
@@ -1061,42 +1031,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "7/1新增：最酷8月页显示报名中。",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "7ae1ee6012694c",
-      "name": "2026七星关·蝴蝶径越野赛",
-      "province": "贵州",
-      "city": "毕节市七星关区",
-      "region": "西南",
-      "date": "2026-08-02",
-      "registrationOpen": "",
-      "deadline": "2026-07-15",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 8,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "需补充组别",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "7/1新增：最酷8月页显示报名中。"
     },
     {
       "id": "2978b097bcd951",
@@ -1129,8 +1064,40 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "7/1新增：最酷8月页显示报名中。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "7/1新增：最酷8月页显示报名中。"
+    },
+    {
+      "id": "7ae1ee6012694c",
+      "name": "2026七星关·蝴蝶径越野赛",
+      "province": "贵州",
+      "city": "毕节市七星关区",
+      "region": "西南",
+      "date": "2026-08-02",
+      "registrationOpen": "",
+      "deadline": "2026-07-15",
+      "status": "closed",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 8,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "需补充组别"
     },
     {
       "id": "8c6f9eaae27eb5",
@@ -1163,8 +1130,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "高海拔极限挑战",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "高海拔极限挑战"
     },
     {
       "id": "0d71768dd5e469",
@@ -1197,8 +1163,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "喜鹊梁赛道",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "喜鹊梁赛道"
     },
     {
       "id": "60f2de10880eb7",
@@ -1231,144 +1196,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "首次升级百英里",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "95addbc3805a9b",
-      "name": "2026 UTO助力首百越野训练赛-宜兴龙山站",
-      "province": "江苏",
-      "city": "无锡市宜兴市",
-      "region": "華東",
-      "date": "2026-08-15",
-      "registrationOpen": "",
-      "deadline": "2026-07-31",
-      "status": "open",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 16,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "落日跑/训练赛",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "c996029a411e25",
-      "name": "2026小五台山地精英赛",
-      "province": "河北",
-      "city": "张家口市蔚县",
-      "region": "華北",
-      "date": "2026-08-15",
-      "registrationOpen": "",
-      "deadline": "",
-      "status": "pending",
-      "sourceStatus": "未显示截止/待确认",
-      "utmb": false,
-      "nearRank": 20,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "低",
-      "notes": "高山赛",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "4ee1dd0881bac1",
-      "name": "2026拓野千岛湖·寻屿夏季越野赛",
-      "province": "浙江",
-      "city": "杭州市淳安县",
-      "region": "華東",
-      "date": "2026-08-15",
-      "registrationOpen": "",
-      "deadline": "2026-07-18",
-      "status": "open",
-      "sourceStatus": "官方聚合頁顯示可報名",
-      "utmb": false,
-      "nearRank": 13,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "近期公開報名"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "多組別待核驗",
-          "index": ""
-        }
-      ],
-      "points": "待核驗",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&where=jiangzhe",
-      "verifiedAt": "2026-07-16",
-      "dataQuality": "中",
-      "notes": "本次更新新增；以報名頁最新狀態為準",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "747e2047c4dc1f",
-      "name": "2026斯巴达勇士赛-崇礼站",
-      "province": "河北",
-      "city": "张家口市崇礼区",
-      "region": "華北",
-      "date": "2026-08-15",
-      "registrationOpen": "",
-      "deadline": "2026-08-08",
-      "status": "open",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 20,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "障碍赛/越野，公里数待核验",
-          "index": ""
-        }
-      ],
-      "points": "否/待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "非传统越野跑，保留观察",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "首次升级百英里"
     },
     {
       "id": "2663a1cc190839",
@@ -1401,22 +1229,54 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "7/1新增：列表可见但报名节点未显示。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "7/1新增：列表可见但报名节点未显示。"
     },
     {
-      "id": "7a261f4c09f731",
-      "name": "奔跑贵阳·2026双龙城市生态越野跑",
-      "province": "贵州",
-      "city": "贵阳市",
-      "region": "西南",
-      "date": "2026-08-16",
+      "id": "95addbc3805a9b",
+      "name": "2026 UTO助力首百越野训练赛-宜兴龙山站",
+      "province": "江苏",
+      "city": "无锡市宜兴市",
+      "region": "華東",
+      "date": "2026-08-15",
+      "registrationOpen": "",
+      "deadline": "2026-07-31",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 16,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "落日跑/训练赛"
+    },
+    {
+      "id": "c996029a411e25",
+      "name": "2026小五台山地精英赛",
+      "province": "河北",
+      "city": "张家口市蔚县",
+      "region": "華北",
+      "date": "2026-08-15",
       "registrationOpen": "",
       "deadline": "",
       "status": "pending",
       "sourceStatus": "未显示截止/待确认",
       "utmb": false,
-      "nearRank": 8,
+      "nearRank": 20,
       "recommended": false,
       "travel": "待核驗",
       "weather": "賽前一週更新",
@@ -1435,56 +1295,21 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "高山赛"
     },
     {
-      "id": "7257c9cf3bc7f0",
-      "name": "户外特工第十一届崇礼翠云山50公里越野赛暨崇礼·她山径女子越野赛",
+      "id": "747e2047c4dc1f",
+      "name": "2026斯巴达勇士赛-崇礼站",
       "province": "河北",
       "city": "张家口市崇礼区",
       "region": "華北",
-      "date": "2026-08-16",
+      "date": "2026-08-15",
       "registrationOpen": "",
-      "deadline": "2026-07-15",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 20,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "50K+"
-      ],
-      "categories": [
-        {
-          "km": 50,
-          "elev": null,
-          "label": "50K",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "50公里越野赛",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "8745f67952b11b",
-      "name": "永不止训练营｜第17届武汉龟山常规例跑",
-      "province": "湖北",
-      "city": "武汉市",
-      "region": "華中",
-      "date": "2026-08-16",
-      "registrationOpen": "",
-      "deadline": "2026-08-10",
+      "deadline": "2026-08-08",
       "status": "open",
       "sourceStatus": "报名中",
       "utmb": false,
-      "nearRank": 10,
+      "nearRank": 20,
       "recommended": false,
       "travel": "待核驗",
       "weather": "賽前一週更新",
@@ -1495,16 +1320,48 @@
         {
           "km": 0,
           "elev": null,
-          "label": "未公开/待核验",
+          "label": "障碍赛/越野，公里数待核验",
           "index": ""
         }
       ],
-      "points": "待核验",
+      "points": "否/待核验",
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "常规例跑",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "非传统越野跑，保留观察"
+    },
+    {
+      "id": "4ee1dd0881bac1",
+      "name": "2026拓野千岛湖·寻屿夏季越野赛",
+      "province": "浙江",
+      "city": "杭州市淳安县",
+      "region": "華東",
+      "date": "2026-08-15",
+      "registrationOpen": "",
+      "deadline": "2026-07-18",
+      "status": "open",
+      "sourceStatus": "官方聚合頁顯示可報名",
+      "utmb": false,
+      "nearRank": 13,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "近期公開報名"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "多組別待核驗",
+          "index": ""
+        }
+      ],
+      "points": "待核驗",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&where=jiangzhe",
+      "verifiedAt": "2026-07-16",
+      "dataQuality": "中",
+      "notes": "本次更新新增；以報名頁最新狀態為準"
     },
     {
       "id": "b73e7dc8481b66",
@@ -1537,8 +1394,172 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "毅行/训练赛",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "毅行/训练赛"
+    },
+    {
+      "id": "7257c9cf3bc7f0",
+      "name": "户外特工第十一届崇礼翠云山50公里越野赛暨崇礼·她山径女子越野赛",
+      "province": "河北",
+      "city": "张家口市崇礼区",
+      "region": "華北",
+      "date": "2026-08-16",
+      "registrationOpen": "",
+      "deadline": "2026-07-15",
+      "status": "closed",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 20,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "50K+"
+      ],
+      "categories": [
+        {
+          "km": 50,
+          "elev": null,
+          "label": "50K",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "50公里越野赛"
+    },
+    {
+      "id": "8745f67952b11b",
+      "name": "永不止训练营｜第17届武汉龟山常规例跑",
+      "province": "湖北",
+      "city": "武汉市",
+      "region": "華中",
+      "date": "2026-08-16",
+      "registrationOpen": "",
+      "deadline": "2026-08-10",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 10,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "常规例跑"
+    },
+    {
+      "id": "7a261f4c09f731",
+      "name": "奔跑贵阳·2026双龙城市生态越野跑",
+      "province": "贵州",
+      "city": "贵阳市",
+      "region": "西南",
+      "date": "2026-08-16",
+      "registrationOpen": "",
+      "deadline": "",
+      "status": "pending",
+      "sourceStatus": "未显示截止/待确认",
+      "utmb": false,
+      "nearRank": 8,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "低",
+      "notes": "需查官方渠道"
+    },
+    {
+      "id": "6acde70dc127c9",
+      "name": "2026(第三届)上海城市亲子轻越野",
+      "province": "上海",
+      "city": "静安区",
+      "region": "華東",
+      "date": "2026-08-22",
+      "registrationOpen": "",
+      "deadline": "2026-06-30",
+      "status": "closed",
+      "sourceStatus": "已截止",
+      "utmb": false,
+      "nearRank": 15,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "亲子轻越野，公里数待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "城市亲子轻越野夜跑；7/1核验：最酷显示已截止（上版为 7/1 17:00 截止）。"
+    },
+    {
+      "id": "a23c36fbd0dbbc",
+      "name": "2026第二届保康尧治河清凉越野赛",
+      "province": "湖北",
+      "city": "襄阳市保康县",
+      "region": "華中",
+      "date": "2026-08-22",
+      "registrationOpen": "",
+      "deadline": "",
+      "status": "pending",
+      "sourceStatus": "未显示截止/待确认",
+      "utmb": false,
+      "nearRank": 10,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "低",
+      "notes": "需查官方渠道"
     },
     {
       "id": "5fe59d8f79d1e2",
@@ -1601,42 +1622,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "高",
-      "notes": "100K爬升4368m+，50K爬升2037m+；来源有完整组别；7/1核验：主报名截止为 7/31，上版仅记录 6/30 早鸟节点。",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "6acde70dc127c9",
-      "name": "2026(第三届)上海城市亲子轻越野",
-      "province": "上海",
-      "city": "静安区",
-      "region": "華東",
-      "date": "2026-08-22",
-      "registrationOpen": "",
-      "deadline": "2026-06-30",
-      "status": "closed",
-      "sourceStatus": "已截止",
-      "utmb": false,
-      "nearRank": 15,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "亲子轻越野，公里数待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "城市亲子轻越野夜跑；7/1核验：最酷显示已截止（上版为 7/1 17:00 截止）。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "100K爬升4368m+，50K爬升2037m+；来源有完整组别；7/1核验：主报名截止为 7/31，上版仅记录 6/30 早鸟节点。"
     },
     {
       "id": "8e031bed93e179",
@@ -1647,7 +1633,7 @@
       "date": "2026-08-22",
       "registrationOpen": "",
       "deadline": "",
-      "status": "pending",
+      "status": "soon",
       "sourceStatus": "即将报名",
       "utmb": false,
       "nearRank": 24,
@@ -1669,42 +1655,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "7/1新增：7/2开启报名，建议重点追踪。",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "a23c36fbd0dbbc",
-      "name": "2026第二届保康尧治河清凉越野赛",
-      "province": "湖北",
-      "city": "襄阳市保康县",
-      "region": "華中",
-      "date": "2026-08-22",
-      "registrationOpen": "",
-      "deadline": "",
-      "status": "pending",
-      "sourceStatus": "未显示截止/待确认",
-      "utmb": false,
-      "nearRank": 10,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "7/1新增：7/2开启报名，建议重点追踪。"
     },
     {
       "id": "32ad112ca6268e",
@@ -1737,8 +1688,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "LNT徒步大会，不一定是越野跑",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "LNT徒步大会，不一定是越野跑"
     },
     {
       "id": "df65630bf98786",
@@ -1771,8 +1721,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "全程海拔1400米以上",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "全程海拔1400米以上"
     },
     {
       "id": "c2d16ce50e7495",
@@ -1805,8 +1754,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "日落跑/训练赛",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "日落跑/训练赛"
     },
     {
       "id": "198b0293ac80de",
@@ -1839,8 +1787,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=8",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "天空越野赛",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "天空越野赛"
     },
     {
       "id": "3540bdcdcf2c52",
@@ -1873,8 +1820,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "东北100",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "东北100"
     },
     {
       "id": "e59258be3f9c81",
@@ -1907,8 +1853,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "需查官方渠道"
     },
     {
       "id": "e36013678602cd",
@@ -1941,8 +1886,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "趣跑",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "趣跑"
     },
     {
       "id": "94a397dbba7f13",
@@ -1975,8 +1919,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "华北老牌山地越野；7/1自动标注：原报名截止日已过，但未在本轮找到延期信息，需二次核验。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "华北老牌山地越野；7/1自动标注：原报名截止日已过，但未在本轮找到延期信息，需二次核验。"
     },
     {
       "id": "092a2529c0a727",
@@ -1987,7 +1930,7 @@
       "date": "2026-09-11",
       "registrationOpen": "",
       "deadline": "",
-      "status": "pending",
+      "status": "closed",
       "sourceStatus": "已截止",
       "utmb": true,
       "nearRank": 20,
@@ -2040,42 +1983,7 @@
       "sourceUrl": "https://dajingmen.utmb.world/zh-Hans/",
       "verifiedAt": "2026-07-01",
       "dataQuality": "高",
-      "notes": "UTMB World Series；官方显示100K、70K等已截止",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "886b8e5f372e4d",
-      "name": "2026户外特工“山顶见”越野赛-中国·大连大黑山站",
-      "province": "辽宁",
-      "city": "大连市金州区",
-      "region": "東北",
-      "date": "2026-09-12",
-      "registrationOpen": "",
-      "deadline": "2026-06-30",
-      "status": "closed",
-      "sourceStatus": "已截止/待复核",
-      "utmb": false,
-      "nearRank": 24,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "大黑山；7/1核验：截止日已过，但列表仍出现入口，建议点进报名页复核。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "UTMB World Series；官方显示100K、70K等已截止"
     },
     {
       "id": "ecdc5566adcc07",
@@ -2108,8 +2016,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "大西山赛事",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "大西山赛事"
     },
     {
       "id": "521d147bacd775",
@@ -2142,22 +2049,21 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "需查官方渠道"
     },
     {
-      "id": "f353da19cffb49",
-      "name": "2026 361°太舞崇礼之巅越野赛",
-      "province": "河北",
-      "city": "张家口市崇礼区",
-      "region": "華北",
-      "date": "2026-09-13",
+      "id": "886b8e5f372e4d",
+      "name": "2026户外特工“山顶见”越野赛-中国·大连大黑山站",
+      "province": "辽宁",
+      "city": "大连市金州区",
+      "region": "東北",
+      "date": "2026-09-12",
       "registrationOpen": "",
-      "deadline": "2026-08-15",
-      "status": "open",
-      "sourceStatus": "报名中",
+      "deadline": "2026-06-30",
+      "status": "closed",
+      "sourceStatus": "已截止/待复核",
       "utmb": false,
-      "nearRank": 20,
+      "nearRank": 24,
       "recommended": false,
       "travel": "待核驗",
       "weather": "賽前一週更新",
@@ -2176,8 +2082,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "怪兽小太阳团队，十周年",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "大黑山；7/1核验：截止日已过，但列表仍出现入口，建议点进报名页复核。"
     },
     {
       "id": "029ebd65dcd16c",
@@ -2210,42 +2115,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "XTERRA，非传统越野需确认",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "9be66f20bd52da",
-      "name": "2026冲峰赛-广州帽峰山站",
-      "province": "广东",
-      "city": "广州市白云区",
-      "region": "華南",
-      "date": "2026-09-13",
-      "registrationOpen": "",
-      "deadline": "2026-08-26",
-      "status": "open",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 0,
-      "recommended": true,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "離廣州較近"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "广州帽峰山",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "XTERRA，非传统越野需确认"
     },
     {
       "id": "912972c372e05a",
@@ -2278,22 +2148,54 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "难度较高",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "难度较高"
     },
     {
-      "id": "6f2f7556eea88e",
-      "name": "2026凯乐石FUGA训练赛-南京站（9月）",
-      "province": "江苏",
-      "city": "南京市",
-      "region": "華東",
-      "date": "2026-09-19",
+      "id": "9be66f20bd52da",
+      "name": "2026冲峰赛-广州帽峰山站",
+      "province": "广东",
+      "city": "广州市白云区",
+      "region": "華南",
+      "date": "2026-09-13",
       "registrationOpen": "",
-      "deadline": "2026-07-31",
+      "deadline": "2026-08-26",
       "status": "open",
       "sourceStatus": "报名中",
       "utmb": false,
-      "nearRank": 16,
+      "nearRank": 0,
+      "recommended": true,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "離廣州較近"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "广州帽峰山"
+    },
+    {
+      "id": "f353da19cffb49",
+      "name": "2026 361°太舞崇礼之巅越野赛",
+      "province": "河北",
+      "city": "张家口市崇礼区",
+      "region": "華北",
+      "date": "2026-09-13",
+      "registrationOpen": "",
+      "deadline": "2026-08-15",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 20,
       "recommended": false,
       "travel": "待核驗",
       "weather": "賽前一週更新",
@@ -2312,8 +2214,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "训练赛",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "怪兽小太阳团队，十周年"
     },
     {
       "id": "02f59d296fad9a",
@@ -2346,8 +2247,40 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "茶马系列",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "茶马系列"
+    },
+    {
+      "id": "6f2f7556eea88e",
+      "name": "2026凯乐石FUGA训练赛-南京站（9月）",
+      "province": "江苏",
+      "city": "南京市",
+      "region": "華東",
+      "date": "2026-09-19",
+      "registrationOpen": "",
+      "deadline": "2026-07-31",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 16,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "训练赛"
     },
     {
       "id": "583715376751da",
@@ -2380,42 +2313,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "西施100系列",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "e311b1a8f08494",
-      "name": "2026 BLACKYAK·延边100越野赛",
-      "province": "吉林",
-      "city": "延边州延吉市",
-      "region": "東北",
-      "date": "2026-09-25",
-      "registrationOpen": "",
-      "deadline": "2026-07-03",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 25,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "100K+"
-      ],
-      "categories": [
-        {
-          "km": 100,
-          "elev": null,
-          "label": "100K",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "边境朝族特色百公里",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "西施100系列"
     },
     {
       "id": "6ed0b9f8e8384f",
@@ -2448,8 +2346,40 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "轻越野",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "轻越野"
+    },
+    {
+      "id": "e311b1a8f08494",
+      "name": "2026 BLACKYAK·延边100越野赛",
+      "province": "吉林",
+      "city": "延边州延吉市",
+      "region": "東北",
+      "date": "2026-09-25",
+      "registrationOpen": "",
+      "deadline": "2026-07-03",
+      "status": "closed",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 25,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "100K+"
+      ],
+      "categories": [
+        {
+          "km": 100,
+          "elev": null,
+          "label": "100K",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "边境朝族特色百公里"
     },
     {
       "id": "7554d924aca9a7",
@@ -2482,8 +2412,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "沙漠赛",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "沙漠赛"
     },
     {
       "id": "ac3384ac8d1aeb",
@@ -2494,7 +2423,7 @@
       "date": "2026-09-25",
       "registrationOpen": "",
       "deadline": "",
-      "status": "pending",
+      "status": "soon",
       "sourceStatus": "平台仍显示即将报名/待确认",
       "utmb": false,
       "nearRank": 6,
@@ -2516,42 +2445,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "注意6/27开报；7/1核验：列表页仍显示即将报名；报名开始日期与上版不同，需二次复核。",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "5fcebf0e3d3696",
-      "name": "2026“玲珑100”·酷爱临安中秋奔月越野赛",
-      "province": "浙江",
-      "city": "杭州市临安区",
-      "region": "華東",
-      "date": "2026-09-26",
-      "registrationOpen": "",
-      "deadline": "2026-09-16",
-      "status": "open",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 13,
-      "recommended": true,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "100K+"
-      ],
-      "categories": [
-        {
-          "km": 100,
-          "elev": null,
-          "label": "100K",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "中秋奔月",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "注意6/27开报；7/1核验：列表页仍显示即将报名；报名开始日期与上版不同，需二次复核。"
     },
     {
       "id": "c287777d1505d8",
@@ -2562,7 +2456,7 @@
       "date": "2026-09-26",
       "registrationOpen": "",
       "deadline": "",
-      "status": "pending",
+      "status": "soon",
       "sourceStatus": "平台仍显示即将报名/待确认",
       "utmb": false,
       "nearRank": 12,
@@ -2584,8 +2478,41 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "注意6/30开报；7/1核验：报名开始日已过，但列表页仍显示即将报名，需二次复核报名页。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "注意6/30开报；7/1核验：报名开始日已过，但列表页仍显示即将报名，需二次复核报名页。"
+    },
+    {
+      "id": "42317ec76e7e32",
+      "name": "2026龙脊梯田百公里跑山赛",
+      "province": "广西",
+      "city": "桂林市龙胜县",
+      "region": "華南",
+      "date": "2026-09-26",
+      "registrationOpen": "",
+      "deadline": "2026-08-31",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 3,
+      "recommended": true,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "離廣州較近",
+        "100K+"
+      ],
+      "categories": [
+        {
+          "km": 100,
+          "elev": null,
+          "label": "100K",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "山地梯田赛"
     },
     {
       "id": "2b4ad757b1c469",
@@ -2624,27 +2551,25 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "50K/100K增补少量名额",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "50K/100K增补少量名额"
     },
     {
-      "id": "42317ec76e7e32",
-      "name": "2026龙脊梯田百公里跑山赛",
-      "province": "广西",
-      "city": "桂林市龙胜县",
-      "region": "華南",
+      "id": "5fcebf0e3d3696",
+      "name": "2026“玲珑100”·酷爱临安中秋奔月越野赛",
+      "province": "浙江",
+      "city": "杭州市临安区",
+      "region": "華東",
       "date": "2026-09-26",
       "registrationOpen": "",
-      "deadline": "2026-08-31",
+      "deadline": "2026-09-16",
       "status": "open",
       "sourceStatus": "报名中",
       "utmb": false,
-      "nearRank": 3,
+      "nearRank": 13,
       "recommended": true,
       "travel": "待核驗",
       "weather": "賽前一週更新",
       "reasons": [
-        "離廣州較近",
         "100K+"
       ],
       "categories": [
@@ -2659,8 +2584,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "山地梯田赛",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "中秋奔月"
     },
     {
       "id": "4c93c5ee70c7bd",
@@ -2693,42 +2617,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "SKYLINE天际线系列",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "f6d438e5760f8c",
-      "name": "2026 SALOMON Go野社区赛·风起曹山",
-      "province": "江苏",
-      "city": "常州市溧阳市",
-      "region": "華東",
-      "date": "2026-09-27",
-      "registrationOpen": "",
-      "deadline": "2026-08-31",
-      "status": "open",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 16,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "社群赛",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "SKYLINE天际线系列"
     },
     {
       "id": "57e45146014ae9",
@@ -2761,8 +2650,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "需查官方渠道"
     },
     {
       "id": "709b8d3567ecb4",
@@ -2795,42 +2683,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "需二次确认是否补录",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "8350837ab5bb21",
-      "name": "2026户外特工“山顶见”越野训练赛·无锡惠山站",
-      "province": "江苏",
-      "city": "无锡市滨湖区",
-      "region": "華東",
-      "date": "2026-09-27",
-      "registrationOpen": "",
-      "deadline": "2026-09-12",
-      "status": "open",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 16,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "训练赛",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "需二次确认是否补录"
     },
     {
       "id": "2e0ec0fac225a3",
@@ -2863,8 +2716,73 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "昆嵛50",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "昆嵛50"
+    },
+    {
+      "id": "f6d438e5760f8c",
+      "name": "2026 SALOMON Go野社区赛·风起曹山",
+      "province": "江苏",
+      "city": "常州市溧阳市",
+      "region": "華東",
+      "date": "2026-09-27",
+      "registrationOpen": "",
+      "deadline": "2026-08-31",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 16,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "社群赛"
+    },
+    {
+      "id": "8350837ab5bb21",
+      "name": "2026户外特工“山顶见”越野训练赛·无锡惠山站",
+      "province": "江苏",
+      "city": "无锡市滨湖区",
+      "region": "華東",
+      "date": "2026-09-27",
+      "registrationOpen": "",
+      "deadline": "2026-09-12",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 16,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=9",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "训练赛"
     },
     {
       "id": "03f2959eea8f0c",
@@ -2897,8 +2815,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "7/1新增：最酷10月页显示报名中。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "7/1新增：最酷10月页显示报名中。"
     },
     {
       "id": "c3c0e8c18a129b",
@@ -2931,42 +2848,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "7/1新增：已截止；非传统越野跑，保留作山径活动参考。",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "25738821769cbc",
-      "name": "2026 GO野社区赛·惠山一枝花",
-      "province": "江苏",
-      "city": "无锡市",
-      "region": "華東",
-      "date": "2026-10-06",
-      "registrationOpen": "",
-      "deadline": "2026-09-17",
-      "status": "open",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 16,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "社区赛/越野，公里数待报名页核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "7/1新增：最酷10月页显示报名中。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "7/1新增：已截止；非传统越野跑，保留作山径活动参考。"
     },
     {
       "id": "99a7af9529b384",
@@ -2999,8 +2881,40 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "7/1新增：最酷10月页显示报名中。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "7/1新增：最酷10月页显示报名中。"
+    },
+    {
+      "id": "25738821769cbc",
+      "name": "2026 GO野社区赛·惠山一枝花",
+      "province": "江苏",
+      "city": "无锡市",
+      "region": "華東",
+      "date": "2026-10-06",
+      "registrationOpen": "",
+      "deadline": "2026-09-17",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 16,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "社区赛/越野，公里数待报名页核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "7/1新增：最酷10月页显示报名中。"
     },
     {
       "id": "fdf73828d87733",
@@ -3011,7 +2925,7 @@
       "date": "2026-10-16",
       "registrationOpen": "",
       "deadline": "",
-      "status": "pending",
+      "status": "closed",
       "sourceStatus": "已截止",
       "utmb": true,
       "nearRank": 21,
@@ -3076,42 +2990,7 @@
       "sourceUrl": "https://mount-yun.utmb.world/",
       "verifiedAt": "2026-07-01",
       "dataQuality": "高",
-      "notes": "UTMB World Series；官方组别、距离、跑石已核验",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "b8bd1d0dad86e6",
-      "name": "2026 MaXi-Race China 江山100越野赛",
-      "province": "浙江",
-      "city": "衢州市江山市",
-      "region": "華東",
-      "date": "2026-10-17",
-      "registrationOpen": "",
-      "deadline": "",
-      "status": "pending",
-      "sourceStatus": "待开放",
-      "utmb": false,
-      "nearRank": 13,
-      "recommended": true,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "100K+"
-      ],
-      "categories": [
-        {
-          "km": 100,
-          "elev": null,
-          "label": "100K",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "十周年，待开报",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "UTMB World Series；官方组别、距离、跑石已核验"
     },
     {
       "id": "ce8e749a09ef76",
@@ -3144,42 +3023,40 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "国家级百公里越野赛；7/1核验：报名截止从上版 6/30 延后至 9/19。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "国家级百公里越野赛；7/1核验：报名截止从上版 6/30 延后至 9/19。"
     },
     {
-      "id": "f0426696b41180",
-      "name": "2026斯巴达勇士赛-重庆站",
-      "province": "重庆",
-      "city": "重庆市",
-      "region": "西南",
+      "id": "b8bd1d0dad86e6",
+      "name": "2026 MaXi-Race China 江山100越野赛",
+      "province": "浙江",
+      "city": "衢州市江山市",
+      "region": "華東",
       "date": "2026-10-17",
       "registrationOpen": "",
-      "deadline": "2026-10-10",
-      "status": "open",
-      "sourceStatus": "报名中",
+      "deadline": "",
+      "status": "soon",
+      "sourceStatus": "待开放",
       "utmb": false,
-      "nearRank": 11,
-      "recommended": false,
+      "nearRank": 13,
+      "recommended": true,
       "travel": "待核驗",
       "weather": "賽前一週更新",
       "reasons": [
-        "未來 365 天賽事"
+        "100K+"
       ],
       "categories": [
         {
-          "km": 0,
+          "km": 100,
           "elev": null,
-          "label": "障碍赛/越野，公里数待核验",
+          "label": "100K",
           "index": ""
         }
       ],
-      "points": "否/待核验",
+      "points": "待核验",
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "非传统越野跑，保留观察",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "十周年，待开报"
     },
     {
       "id": "d3289c48e2cbff",
@@ -3212,8 +3089,40 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "杭州百公里",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "杭州百公里"
+    },
+    {
+      "id": "f0426696b41180",
+      "name": "2026斯巴达勇士赛-重庆站",
+      "province": "重庆",
+      "city": "重庆市",
+      "region": "西南",
+      "date": "2026-10-17",
+      "registrationOpen": "",
+      "deadline": "2026-10-10",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 11,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "障碍赛/越野，公里数待核验",
+          "index": ""
+        }
+      ],
+      "points": "否/待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "非传统越野跑，保留观察"
     },
     {
       "id": "0cf79cd1028810",
@@ -3246,42 +3155,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "2bdfd0c181ce1e",
-      "name": "2026环黄泥川·大连越野赛",
-      "province": "辽宁",
-      "city": "大连市",
-      "region": "東北",
-      "date": "2026-10-18",
-      "registrationOpen": "",
-      "deadline": "2026-09-25",
-      "status": "open",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 24,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "山海路线；7/1核验：报名截止从上版 6/30 延后至 9/25。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "需查官方渠道"
     },
     {
       "id": "d80c90f4dd74ac",
@@ -3314,8 +3188,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "秋季赛",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "秋季赛"
     },
     {
       "id": "12a02290d4ad09",
@@ -3348,8 +3221,40 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "含徒步活动",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "含徒步活动"
+    },
+    {
+      "id": "2bdfd0c181ce1e",
+      "name": "2026环黄泥川·大连越野赛",
+      "province": "辽宁",
+      "city": "大连市",
+      "region": "東北",
+      "date": "2026-10-18",
+      "registrationOpen": "",
+      "deadline": "2026-09-25",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 24,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "未公开/待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "山海路线；7/1核验：报名截止从上版 6/30 延后至 9/25。"
     },
     {
       "id": "c723179b1989cb",
@@ -3382,8 +3287,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "十年问剑",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "十年问剑"
     },
     {
       "id": "fcc36a390ea095",
@@ -3416,8 +3320,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "高难度百英里",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "高难度百英里"
     },
     {
       "id": "5534d372d73e0c",
@@ -3450,8 +3353,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "梅里雪山高海拔；7/1核验：报名截止日已过，最酷显示已截止。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "梅里雪山高海拔；7/1核验：报名截止日已过，最酷显示已截止。"
     },
     {
       "id": "bfead132608bb5",
@@ -3484,76 +3386,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "c4b09330fee8c2",
-      "name": "2026 XTERRA 世界杯暨越野三项·苏州站",
-      "province": "江苏",
-      "city": "苏州市吴中区",
-      "region": "華東",
-      "date": "2026-10-31",
-      "registrationOpen": "",
-      "deadline": "",
-      "status": "pending",
-      "sourceStatus": "未显示截止/待确认",
-      "utmb": false,
-      "nearRank": 16,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "越野三项/越野跑待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "低",
-      "notes": "非纯越野跑，保留观察",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "5de5c0ba84b16f",
-      "name": "2026中岳嵩山越野赛",
-      "province": "河南",
-      "city": "郑州市登封市",
-      "region": "華中",
-      "date": "2026-10-31",
-      "registrationOpen": "",
-      "deadline": "2026-08-31",
-      "status": "open",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 17,
-      "recommended": true,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "100K+"
-      ],
-      "categories": [
-        {
-          "km": 100,
-          "elev": null,
-          "label": "100K",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "嵩山100",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "需查官方渠道"
     },
     {
       "id": "f0025af1130e0e",
@@ -3586,8 +3419,40 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "香港赛事；可在筛选中排除大陆以外",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "香港赛事；可在筛选中排除大陆以外"
+    },
+    {
+      "id": "0bbcb0c63d608c",
+      "name": "MILLET觅乐·2026环玉龙雪山超级越野赛",
+      "province": "云南",
+      "city": "丽江市玉龙县",
+      "region": "西南",
+      "date": "2026-10-31",
+      "registrationOpen": "",
+      "deadline": "2026-09-30",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 9,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "超级越野，多组别待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "SKYLINE天际线系列"
     },
     {
       "id": "94b47ab57dac77",
@@ -3626,8 +3491,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "怪兽小太阳团队新赛事",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "怪兽小太阳团队新赛事"
     },
     {
       "id": "6590601acd1142",
@@ -3660,22 +3524,21 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "可能与环新安江百公里有关联",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "可能与环新安江百公里有关联"
     },
     {
-      "id": "0bbcb0c63d608c",
-      "name": "MILLET觅乐·2026环玉龙雪山超级越野赛",
-      "province": "云南",
-      "city": "丽江市玉龙县",
-      "region": "西南",
+      "id": "c4b09330fee8c2",
+      "name": "2026 XTERRA 世界杯暨越野三项·苏州站",
+      "province": "江苏",
+      "city": "苏州市吴中区",
+      "region": "華東",
       "date": "2026-10-31",
       "registrationOpen": "",
-      "deadline": "2026-09-30",
-      "status": "open",
-      "sourceStatus": "报名中",
+      "deadline": "",
+      "status": "pending",
+      "sourceStatus": "未显示截止/待确认",
       "utmb": false,
-      "nearRank": 9,
+      "nearRank": 16,
       "recommended": false,
       "travel": "待核驗",
       "weather": "賽前一週更新",
@@ -3686,7 +3549,40 @@
         {
           "km": 0,
           "elev": null,
-          "label": "超级越野，多组别待核验",
+          "label": "越野三项/越野跑待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "低",
+      "notes": "非纯越野跑，保留观察"
+    },
+    {
+      "id": "5de5c0ba84b16f",
+      "name": "2026中岳嵩山越野赛",
+      "province": "河南",
+      "city": "郑州市登封市",
+      "region": "華中",
+      "date": "2026-10-31",
+      "registrationOpen": "",
+      "deadline": "2026-08-31",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 17,
+      "recommended": true,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "100K+"
+      ],
+      "categories": [
+        {
+          "km": 100,
+          "elev": null,
+          "label": "100K",
           "index": ""
         }
       ],
@@ -3694,8 +3590,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "SKYLINE天际线系列",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "嵩山100"
     },
     {
       "id": "2aa533238047a5",
@@ -3728,8 +3623,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "名额少，已截止",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "名额少，已截止"
     },
     {
       "id": "29244c026908f5",
@@ -3793,76 +3687,7 @@
       "sourceUrl": "https://shudao.utmb.world/zh-Hans/",
       "verifiedAt": "2026-07-01",
       "dataQuality": "高",
-      "notes": "UTMB World Series；官方组别与跑石已核验",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "cd0550e02c8e02",
-      "name": "2026斯巴达勇士赛-莫干山站",
-      "province": "浙江",
-      "city": "湖州市德清县",
-      "region": "華東",
-      "date": "2026-11-07",
-      "registrationOpen": "",
-      "deadline": "2026-10-31",
-      "status": "open",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 13,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "障碍赛/越野，公里数待核验",
-          "index": ""
-        }
-      ],
-      "points": "否/待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "非传统越野跑，保留观察",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "3891132ec9a319",
-      "name": "2026澜跑无锡宜兴阳羡100越野挑战赛",
-      "province": "江苏",
-      "city": "无锡市宜兴市",
-      "region": "華東",
-      "date": "2026-11-07",
-      "registrationOpen": "",
-      "deadline": "2026-06-26",
-      "status": "closed",
-      "sourceStatus": "已截止",
-      "utmb": false,
-      "nearRank": 16,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "100K+"
-      ],
-      "categories": [
-        {
-          "km": 100,
-          "elev": null,
-          "label": "100K",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "近期截止；7/1核验：报名截止日已过，最酷显示已截止。",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "UTMB World Series；官方组别与跑石已核验"
     },
     {
       "id": "e491be0563523e",
@@ -3896,8 +3721,73 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "需查官方渠道"
+    },
+    {
+      "id": "3891132ec9a319",
+      "name": "2026澜跑无锡宜兴阳羡100越野挑战赛",
+      "province": "江苏",
+      "city": "无锡市宜兴市",
+      "region": "華東",
+      "date": "2026-11-07",
+      "registrationOpen": "",
+      "deadline": "2026-06-26",
+      "status": "closed",
+      "sourceStatus": "已截止",
+      "utmb": false,
+      "nearRank": 16,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "100K+"
+      ],
+      "categories": [
+        {
+          "km": 100,
+          "elev": null,
+          "label": "100K",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "近期截止；7/1核验：报名截止日已过，最酷显示已截止。"
+    },
+    {
+      "id": "cd0550e02c8e02",
+      "name": "2026斯巴达勇士赛-莫干山站",
+      "province": "浙江",
+      "city": "湖州市德清县",
+      "region": "華東",
+      "date": "2026-11-07",
+      "registrationOpen": "",
+      "deadline": "2026-10-31",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 13,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "障碍赛/越野，公里数待核验",
+          "index": ""
+        }
+      ],
+      "points": "否/待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "非传统越野跑，保留观察"
     },
     {
       "id": "db7f238fd7f0e1",
@@ -3930,42 +3820,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "世界自然遗产景区；7/1核验：报名截止从上版 6/30 延后至 8/31。",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "255b9688982483",
-      "name": "2026可隆宁海越野挑战赛",
-      "province": "浙江",
-      "city": "宁波市宁海县",
-      "region": "華東",
-      "date": "2026-11-13",
-      "registrationOpen": "",
-      "deadline": "2026-04-22",
-      "status": "closed",
-      "sourceStatus": "已截止",
-      "utmb": false,
-      "nearRank": 13,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "多组别待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "宁海老牌越野",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "世界自然遗产景区；7/1核验：报名截止从上版 6/30 延后至 8/31。"
     },
     {
       "id": "e18122be00102c",
@@ -3999,22 +3854,21 @@
       "sourceUrl": "https://translantau.utmb.world/",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "香港赛事；若只看中国大陆可用“中国大陆=否”过滤",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "香港赛事；若只看中国大陆可用“中国大陆=否”过滤"
     },
     {
-      "id": "86bda5c32cd632",
-      "name": "2026 XTERRA 越野跑世界系列赛·张家界武陵源站",
-      "province": "湖南",
-      "city": "张家界市武陵源区",
-      "region": "華南",
-      "date": "2026-11-14",
+      "id": "255b9688982483",
+      "name": "2026可隆宁海越野挑战赛",
+      "province": "浙江",
+      "city": "宁波市宁海县",
+      "region": "華東",
+      "date": "2026-11-13",
       "registrationOpen": "",
-      "deadline": "",
-      "status": "pending",
-      "sourceStatus": "未显示截止/待确认",
+      "deadline": "2026-04-22",
+      "status": "closed",
+      "sourceStatus": "已截止",
       "utmb": false,
-      "nearRank": 7,
+      "nearRank": 13,
       "recommended": false,
       "travel": "待核驗",
       "weather": "賽前一週更新",
@@ -4025,41 +3879,7 @@
         {
           "km": 0,
           "elev": null,
-          "label": "XTERRA越野跑，公里数待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "低",
-      "notes": "XTERRA世界系列赛",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "b6a82fab591221",
-      "name": "2026易宏实业穿越山海百公里越野赛",
-      "province": "浙江",
-      "city": "台州市玉环市",
-      "region": "華東",
-      "date": "2026-11-14",
-      "registrationOpen": "",
-      "deadline": "2026-10-01",
-      "status": "open",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 13,
-      "recommended": true,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "100K+"
-      ],
-      "categories": [
-        {
-          "km": 100,
-          "elev": null,
-          "label": "100K",
+          "label": "多组别待核验",
           "index": ""
         }
       ],
@@ -4067,8 +3887,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "穿越山海百公里",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "宁海老牌越野"
     },
     {
       "id": "f3a204d3d3ea9f",
@@ -4101,8 +3920,73 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "西宏秋季赛",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "西宏秋季赛"
+    },
+    {
+      "id": "b6a82fab591221",
+      "name": "2026易宏实业穿越山海百公里越野赛",
+      "province": "浙江",
+      "city": "台州市玉环市",
+      "region": "華東",
+      "date": "2026-11-14",
+      "registrationOpen": "",
+      "deadline": "2026-10-01",
+      "status": "open",
+      "sourceStatus": "报名中",
+      "utmb": false,
+      "nearRank": 13,
+      "recommended": true,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "100K+"
+      ],
+      "categories": [
+        {
+          "km": 100,
+          "elev": null,
+          "label": "100K",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "中",
+      "notes": "穿越山海百公里"
+    },
+    {
+      "id": "86bda5c32cd632",
+      "name": "2026 XTERRA 越野跑世界系列赛·张家界武陵源站",
+      "province": "湖南",
+      "city": "张家界市武陵源区",
+      "region": "華南",
+      "date": "2026-11-14",
+      "registrationOpen": "",
+      "deadline": "",
+      "status": "pending",
+      "sourceStatus": "未显示截止/待确认",
+      "utmb": false,
+      "nearRank": 7,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "未來 365 天賽事"
+      ],
+      "categories": [
+        {
+          "km": 0,
+          "elev": null,
+          "label": "XTERRA越野跑，公里数待核验",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "低",
+      "notes": "XTERRA世界系列赛"
     },
     {
       "id": "5e47789e9f4e5c",
@@ -4135,42 +4019,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "7/1新增：最酷11月页显示报名中。",
-      "lastProcessedAt": "2026-07-16"
-    },
-    {
-      "id": "b2a22afd6bdd01",
-      "name": "2026崇义100越野赛",
-      "province": "江西",
-      "city": "赣州市崇义县",
-      "region": "華南",
-      "date": "2026-11-21",
-      "registrationOpen": "",
-      "deadline": "",
-      "status": "pending",
-      "sourceStatus": "未显示截止/待确认",
-      "utmb": false,
-      "nearRank": 6,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "100K+"
-      ],
-      "categories": [
-        {
-          "km": 100,
-          "elev": null,
-          "label": "100K",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "7/1新增：最酷11月页显示报名中。"
     },
     {
       "id": "414106b47f3cbf",
@@ -4204,8 +4053,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "需查官方渠道"
     },
     {
       "id": "3c7a01000ebd25",
@@ -4238,8 +4086,40 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "SKYLINE天际线系列",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "SKYLINE天际线系列"
+    },
+    {
+      "id": "b2a22afd6bdd01",
+      "name": "2026崇义100越野赛",
+      "province": "江西",
+      "city": "赣州市崇义县",
+      "region": "華南",
+      "date": "2026-11-21",
+      "registrationOpen": "",
+      "deadline": "",
+      "status": "pending",
+      "sourceStatus": "未显示截止/待确认",
+      "utmb": false,
+      "nearRank": 6,
+      "recommended": false,
+      "travel": "待核驗",
+      "weather": "賽前一週更新",
+      "reasons": [
+        "100K+"
+      ],
+      "categories": [
+        {
+          "km": 100,
+          "elev": null,
+          "label": "100K",
+          "index": ""
+        }
+      ],
+      "points": "待核验",
+      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
+      "verifiedAt": "2026-07-01",
+      "dataQuality": "低",
+      "notes": "需查官方渠道"
     },
     {
       "id": "0fc6c34d68d03e",
@@ -4272,8 +4152,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "国内历史悠久跑山赛",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "国内历史悠久跑山赛"
     },
     {
       "id": "ba52ff0a8b185b",
@@ -4306,8 +4185,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "锦标赛性质，报名资格需另查",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "锦标赛性质，报名资格需另查"
     },
     {
       "id": "411e5a3a4c2c0c",
@@ -4340,8 +4218,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "仅剩少年10K提示曾出现，需确认补录",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "仅剩少年10K提示曾出现，需确认补录"
     },
     {
       "id": "475ee7dc95282f",
@@ -4374,8 +4251,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=11",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "年终训练赛",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "年终训练赛"
     },
     {
       "id": "de6980baa0c881",
@@ -4421,8 +4297,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=12",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "阳朔100，已截止",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "阳朔100，已截止"
     },
     {
       "id": "2c75cb039b5db0",
@@ -4455,8 +4330,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=12",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "需查官方渠道"
     },
     {
       "id": "b598529cb070ec",
@@ -4489,8 +4363,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=12",
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "需查官方渠道"
     },
     {
       "id": "80f724c13700e0",
@@ -4523,8 +4396,7 @@
       "sourceUrl": "https://zuicool.com/events?type=trail-run&when=12",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "LNT徒步大会，不一定是越野跑",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "LNT徒步大会，不一定是越野跑"
     },
     {
       "id": "7710585727763c",
@@ -4535,7 +4407,7 @@
       "date": "2027-04-15",
       "registrationOpen": "",
       "deadline": "",
-      "status": "pending",
+      "status": "soon",
       "sourceStatus": "待开放/未见官方报名",
       "utmb": false,
       "nearRank": 0,
@@ -4557,8 +4429,7 @@
       "sourceUrl": "https://www.finishers.com/en/event/trail-runing-to-2035",
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
-      "notes": "使用4月15日作为排序用估计日期；实际日期待官方公布",
-      "lastProcessedAt": "2026-07-16"
+      "notes": "使用4月15日作为排序用估计日期；实际日期待官方公布"
     }
   ]
 }

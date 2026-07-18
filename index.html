@@ -383,8 +383,20 @@ function openDetail(id){
   <div class="detail-section"><h3>為什麼推薦</h3><div class="reason-list">${r.reasons.map(x=>`<span class="reason">✓ ${x}</span>`).join('')}</div></div>
   <div class="detail-section"><h3>重要日期</h3><div class="pref-row"><span>比賽日期</span><b>${r.date}</b></div><div class="pref-row"><span>報名截止</span><b>${r.deadline}</b></div></div>
  </div>
- <div class="detail-action"><button>前往官方報名</button></div>`;
+ <div class="detail-action">${
+   r.sourceUrl
+   ? `<button onclick="openOfficialLink('${r.sourceUrl.replace(/'/g,"\\'")}')">前往官方報名／來源</button>`
+   : `<button disabled style="opacity:.55;cursor:not-allowed">報名連結待補</button>`
+ }</div>`;
  detailScreen.classList.add('open');document.body.style.overflow='hidden';
+}
+function openOfficialLink(url){
+ if(!url){
+   alert('此賽事的報名連結尚待補充。');
+   return;
+ }
+ const win=window.open(url,'_blank','noopener,noreferrer');
+ if(!win)window.location.href=url;
 }
 function closeDetail(){detailScreen.classList.remove('open');document.body.style.overflow=''}
 

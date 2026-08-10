@@ -1,64 +1,19 @@
 {
-  "updatedAt": "2026-08-03T03:54:03Z",
-  "windowStart": "2026-08-03",
-  "windowEnd": "2027-08-03",
-  "raceCount": 96,
+  "updatedAt": "2026-08-10T02:34:03Z",
+  "windowStart": "2026-08-10",
+  "windowEnd": "2027-08-10",
+  "raceCount": 94,
   "statusChanges": [
     {
-      "id": "95addbc3805a9b",
-      "name": "2026 UTO助力首百越野训练赛-宜兴龙山站",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "b73e7dc8481b66",
-      "name": "露露杯·第五届长城毅行暨UTO助力首百越野训练赛·蟠龙山站",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "5fe59d8f79d1e2",
-      "name": "2026 中国·百里杜鹃第七届越野跑挑战赛",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "df65630bf98786",
-      "name": "第十四届北灵山越野赛（去撒野赛事）",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "198b0293ac80de",
-      "name": "MAMMUT猛犸象2026第二届亚布力天空越野赛",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "e36013678602cd",
-      "name": "2026猫仔洗面森林趣跑",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "6f2f7556eea88e",
-      "name": "2026凯乐石FUGA训练赛-南京站（9月）",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "4c93c5ee70c7bd",
-      "name": "澜跑·2026巴松措超级越野赛",
+      "id": "747e2047c4dc1f",
+      "name": "2026斯巴达勇士赛-崇礼站",
       "from": "open",
       "to": "closed"
     }
   ],
   "removedOutsideWindow": [
-    "2026第二届京西古道消夏泡泡跑",
-    "永不止&2026八一·喻家山第16届山野拉练",
-    "2026 FUGA训练赛东莞佛灵湖站",
-    "2026七星关·蝴蝶径越野赛",
-    "第三届挑战2100·羚跑山野 云顶家庭越野挑战赛"
+    "2026阿尼玛卿极限挑战赛",
+    "2026崇礼山野越陟环山赛（去撒野赛事）"
   ],
   "newRaces": [],
   "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."

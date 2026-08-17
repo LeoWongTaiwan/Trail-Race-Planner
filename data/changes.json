@@ -1,19 +1,39 @@
 {
-  "updatedAt": "2026-08-10T02:34:03Z",
-  "windowStart": "2026-08-10",
-  "windowEnd": "2027-08-10",
-  "raceCount": 94,
+  "updatedAt": "2026-08-17T01:54:40Z",
+  "windowStart": "2026-08-17",
+  "windowEnd": "2027-08-17",
+  "raceCount": 84,
   "statusChanges": [
     {
-      "id": "747e2047c4dc1f",
-      "name": "2026斯巴达勇士赛-崇礼站",
+      "id": "f353da19cffb49",
+      "name": "2026 361°太舞崇礼之巅越野赛",
+      "from": "open",
+      "to": "closed"
+    },
+    {
+      "id": "029ebd65dcd16c",
+      "name": "2026 XTERRA 阿拉善沙漠挑战赛",
+      "from": "open",
+      "to": "closed"
+    },
+    {
+      "id": "912972c372e05a",
+      "name": "2026咔哒寻山群英赛",
       "from": "open",
       "to": "closed"
     }
   ],
   "removedOutsideWindow": [
-    "2026阿尼玛卿极限挑战赛",
-    "2026崇礼山野越陟环山赛（去撒野赛事）"
+    "2026第七届海坨山超级越野赛",
+    "2026 UTO助力首百越野训练赛-宜兴龙山站",
+    "2026小五台山地精英赛",
+    "2026拓野千岛湖·寻屿夏季越野赛",
+    "2026斯巴达勇士赛-崇礼站",
+    "2026第六届蜜桃成熟时·GAME02",
+    "奔跑贵阳·2026双龙城市生态越野跑",
+    "户外特工第十一届崇礼翠云山50公里越野赛暨崇礼·她山径女子越野赛",
+    "永不止训练营｜第17届武汉龟山常规例跑",
+    "露露杯·第五届长城毅行暨UTO助力首百越野训练赛·蟠龙山站"
   ],
   "newRaces": [],
   "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."

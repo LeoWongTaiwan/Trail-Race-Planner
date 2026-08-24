@@ -1,39 +1,23 @@
 {
-  "updatedAt": "2026-08-17T01:54:40Z",
-  "windowStart": "2026-08-17",
-  "windowEnd": "2027-08-17",
-  "raceCount": 84,
+  "updatedAt": "2026-08-24T01:57:17Z",
+  "windowStart": "2026-08-24",
+  "windowEnd": "2027-08-24",
+  "raceCount": 78,
   "statusChanges": [
     {
-      "id": "f353da19cffb49",
-      "name": "2026 361°太舞崇礼之巅越野赛",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "029ebd65dcd16c",
-      "name": "2026 XTERRA 阿拉善沙漠挑战赛",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "912972c372e05a",
-      "name": "2026咔哒寻山群英赛",
+      "id": "c2d16ce50e7495",
+      "name": "2026 UTO助力首百越野训练赛南京老山站",
       "from": "open",
       "to": "closed"
     }
   ],
   "removedOutsideWindow": [
-    "2026第七届海坨山超级越野赛",
-    "2026 UTO助力首百越野训练赛-宜兴龙山站",
-    "2026小五台山地精英赛",
-    "2026拓野千岛湖·寻屿夏季越野赛",
-    "2026斯巴达勇士赛-崇礼站",
-    "2026第六届蜜桃成熟时·GAME02",
-    "奔跑贵阳·2026双龙城市生态越野跑",
-    "户外特工第十一届崇礼翠云山50公里越野赛暨崇礼·她山径女子越野赛",
-    "永不止训练营｜第17届武汉龟山常规例跑",
-    "露露杯·第五届长城毅行暨UTO助力首百越野训练赛·蟠龙山站"
+    "2026 中国·百里杜鹃第七届越野跑挑战赛",
+    "2026(第三届)上海城市亲子轻越野",
+    "2026上千野·大连广鹿岛月光越野赛",
+    "2026第二届保康尧治河清凉越野赛",
+    "2026安徽户外LNT四季江淮徒步大会・8月・潜山站・天柱山",
+    "第十四届北灵山越野赛（去撒野赛事）"
   ],
   "newRaces": [],
   "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."

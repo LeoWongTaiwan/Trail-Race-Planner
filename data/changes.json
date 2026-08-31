@@ -1,23 +1,25 @@
 {
-  "updatedAt": "2026-08-24T01:57:17Z",
-  "windowStart": "2026-08-24",
-  "windowEnd": "2027-08-24",
-  "raceCount": 78,
+  "updatedAt": "2026-08-31T05:34:12Z",
+  "windowStart": "2026-08-31",
+  "windowEnd": "2027-08-31",
+  "raceCount": 76,
   "statusChanges": [
     {
-      "id": "c2d16ce50e7495",
-      "name": "2026 UTO助力首百越野训练赛南京老山站",
+      "id": "9be66f20bd52da",
+      "name": "2026冲峰赛-广州帽峰山站",
+      "from": "open",
+      "to": "closed"
+    },
+    {
+      "id": "02f59d296fad9a",
+      "name": "拓路者2026云南茶马1000里越野赛（墨江站）",
       "from": "open",
       "to": "closed"
     }
   ],
   "removedOutsideWindow": [
-    "2026 中国·百里杜鹃第七届越野跑挑战赛",
-    "2026(第三届)上海城市亲子轻越野",
-    "2026上千野·大连广鹿岛月光越野赛",
-    "2026第二届保康尧治河清凉越野赛",
-    "2026安徽户外LNT四季江淮徒步大会・8月・潜山站・天柱山",
-    "第十四届北灵山越野赛（去撒野赛事）"
+    "2026 UTO助力首百越野训练赛南京老山站",
+    "MAMMUT猛犸象2026第二届亚布力天空越野赛"
   ],
   "newRaces": [],
   "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."

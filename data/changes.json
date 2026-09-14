@@ -1,57 +1,37 @@
 {
-  "updatedAt": "2026-09-07T04:40:45Z",
-  "windowStart": "2026-09-07",
-  "windowEnd": "2027-09-07",
-  "raceCount": 72,
+  "updatedAt": "2026-09-14T04:55:53Z",
+  "windowStart": "2026-09-14",
+  "windowEnd": "2027-09-14",
+  "raceCount": 64,
   "statusChanges": [
     {
-      "id": "6ed0b9f8e8384f",
-      "name": "2026“HELLO北京”中秋轻越野跑（去撒野赛事）",
+      "id": "8350837ab5bb21",
+      "name": "2026户外特工“山顶见”越野训练赛·无锡惠山站",
       "from": "open",
       "to": "closed"
     },
     {
-      "id": "42317ec76e7e32",
-      "name": "2026龙脊梯田百公里跑山赛",
+      "id": "2e0ec0fac225a3",
+      "name": "2026昆嵛50超级越野赛",
       "from": "open",
       "to": "closed"
     },
     {
-      "id": "f6d438e5760f8c",
-      "name": "2026 SALOMON Go野社区赛·风起曹山",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "03f2959eea8f0c",
-      "name": "2026国庆越野屏南嘉年华",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "fcc36a390ea095",
-      "name": "2026奥尼捷·衢州·灵鹫山168古道越野赛",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "5de5c0ba84b16f",
-      "name": "2026中岳嵩山越野赛",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "db7f238fd7f0e1",
-      "name": "2026三清山云端越野赛",
+      "id": "99a7af9529b384",
+      "name": "澜跑・2026贺兰山超级越野赛",
       "from": "open",
       "to": "closed"
     }
   ],
   "removedOutsideWindow": [
-    "2026凯乐石松花湖东北100跑山赛",
-    "2026第十届武功山超级越野赛",
-    "2026猫仔洗面森林趣跑",
-    "2026第十二届五岳寨越野挑战赛"
+    "2026京东大境门古长城越野赛 by UTMB®",
+    "2026户外特工“山顶见”越野赛-中国·大连大黑山站",
+    "2026澜跑北京越野跑挑战赛（海淀）",
+    "赛动黔景&奔跑贵阳·2026第三届天空之镜贵阳100越野赛",
+    "2026 361°太舞崇礼之巅越野赛",
+    "2026 XTERRA 阿拉善沙漠挑战赛",
+    "2026冲峰赛-广州帽峰山站",
+    "2026咔哒寻山群英赛"
   ],
   "newRaces": [],
   "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."

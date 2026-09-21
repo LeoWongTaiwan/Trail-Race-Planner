@@ -1,37 +1,50 @@
 {
-  "updatedAt": "2026-09-14T04:55:53Z",
-  "windowStart": "2026-09-14",
-  "windowEnd": "2027-09-14",
-  "raceCount": 64,
+  "updatedAt": "2026-09-21T04:55:06Z",
+  "windowStart": "2026-09-21",
+  "windowEnd": "2027-09-21",
+  "raceCount": 61,
   "statusChanges": [
     {
-      "id": "8350837ab5bb21",
-      "name": "2026户外特工“山顶见”越野训练赛·无锡惠山站",
+      "id": "5fcebf0e3d3696",
+      "name": "2026“玲珑100”·酷爱临安中秋奔月越野赛",
       "from": "open",
       "to": "closed"
     },
     {
-      "id": "2e0ec0fac225a3",
-      "name": "2026昆嵛50超级越野赛",
+      "id": "25738821769cbc",
+      "name": "2026 GO野社区赛·惠山一枝花",
       "from": "open",
       "to": "closed"
     },
     {
-      "id": "99a7af9529b384",
-      "name": "澜跑・2026贺兰山超级越野赛",
+      "id": "ce8e749a09ef76",
+      "name": "2026中国山地越野公开赛（南京站）暨UTO助力首百汤山温泉越野赛",
+      "from": "open",
+      "to": "closed"
+    },
+    {
+      "id": "d3289c48e2cbff",
+      "name": "思凯乐·2026杭州大宋108越野赛",
+      "from": "open",
+      "to": "closed"
+    },
+    {
+      "id": "d80c90f4dd74ac",
+      "name": "OPC1000越野赛·IMTA TRAIL海州锦屏山秋季赛",
+      "from": "open",
+      "to": "closed"
+    },
+    {
+      "id": "94b47ab57dac77",
+      "name": "2026黄山徽州古城环新安江百公里越野赛",
       "from": "open",
       "to": "closed"
     }
   ],
   "removedOutsideWindow": [
-    "2026京东大境门古长城越野赛 by UTMB®",
-    "2026户外特工“山顶见”越野赛-中国·大连大黑山站",
-    "2026澜跑北京越野跑挑战赛（海淀）",
-    "赛动黔景&奔跑贵阳·2026第三届天空之镜贵阳100越野赛",
-    "2026 361°太舞崇礼之巅越野赛",
-    "2026 XTERRA 阿拉善沙漠挑战赛",
-    "2026冲峰赛-广州帽峰山站",
-    "2026咔哒寻山群英赛"
+    "2026凯乐石FUGA训练赛-南京站（9月）",
+    "拓路者2026云南茶马1000里越野赛（墨江站）",
+    "西施100 | 东白山太白峰速攀挑战赛"
   ],
   "newRaces": [],
   "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."

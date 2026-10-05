@@ -1,31 +1,43 @@
 {
-  "updatedAt": "2026-09-28T05:23:25Z",
-  "windowStart": "2026-09-28",
-  "windowEnd": "2027-09-28",
-  "raceCount": 47,
+  "updatedAt": "2026-10-05T05:39:18Z",
+  "windowStart": "2026-10-05",
+  "windowEnd": "2027-10-05",
+  "raceCount": 45,
   "statusChanges": [
     {
-      "id": "2bdfd0c181ce1e",
-      "name": "2026环黄泥川·大连越野赛",
+      "id": "f0025af1130e0e",
+      "name": "2026香港狂野 HK WILD",
+      "from": "open",
+      "to": "closed"
+    },
+    {
+      "id": "0bbcb0c63d608c",
+      "name": "MILLET觅乐·2026环玉龙雪山超级越野赛",
+      "from": "open",
+      "to": "closed"
+    },
+    {
+      "id": "b6a82fab591221",
+      "name": "2026易宏实业穿越山海百公里越野赛",
+      "from": "open",
+      "to": "closed"
+    },
+    {
+      "id": "f3a204d3d3ea9f",
+      "name": "户外特工2026黄山西宏越野秋季赛",
+      "from": "open",
+      "to": "closed"
+    },
+    {
+      "id": "3c7a01000ebd25",
+      "name": "第九届漓江越野跑",
       "from": "open",
       "to": "closed"
     }
   ],
   "removedOutsideWindow": [
-    "2026 BLACKYAK·延边100越野赛",
-    "2026“HELLO北京”中秋轻越野跑（去撒野赛事）",
-    "2026中卫沙漠越野赛",
-    "霞路相逢·三山五岳2026庐山越野赛",
-    "2026“玲珑100”·酷爱临安中秋奔月越野赛",
-    "2026凯乐石贡嘎100冰川极限挑战赛",
-    "2026金山岭长城越野赛黄金联赛世界系列赛",
-    "2026龙脊梯田百公里跑山赛",
-    "澜跑·2026巴松措超级越野赛",
-    "2026 SALOMON Go野社区赛·风起曹山",
-    "2026南陵大工山越野赛",
-    "2026大别山菖蒲越野赛",
-    "2026户外特工“山顶见”越野训练赛·无锡惠山站",
-    "2026昆嵛50超级越野赛"
+    "2026国庆越野屏南嘉年华",
+    "2026年安徽户外LNT四季江淮徒步大会・10月・宁国站・铁匠山"
   ],
   "newRaces": [],
   "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."

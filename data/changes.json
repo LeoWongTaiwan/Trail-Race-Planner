@@ -1,43 +1,19 @@
 {
-  "updatedAt": "2026-10-05T05:39:18Z",
-  "windowStart": "2026-10-05",
-  "windowEnd": "2027-10-05",
-  "raceCount": 45,
+  "updatedAt": "2026-10-12T05:57:06Z",
+  "windowStart": "2026-10-12",
+  "windowEnd": "2027-10-12",
+  "raceCount": 43,
   "statusChanges": [
     {
-      "id": "f0025af1130e0e",
-      "name": "2026香港狂野 HK WILD",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "0bbcb0c63d608c",
-      "name": "MILLET觅乐·2026环玉龙雪山超级越野赛",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "b6a82fab591221",
-      "name": "2026易宏实业穿越山海百公里越野赛",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "f3a204d3d3ea9f",
-      "name": "户外特工2026黄山西宏越野秋季赛",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "3c7a01000ebd25",
-      "name": "第九届漓江越野跑",
+      "id": "f0426696b41180",
+      "name": "2026斯巴达勇士赛-重庆站",
       "from": "open",
       "to": "closed"
     }
   ],
   "removedOutsideWindow": [
-    "2026国庆越野屏南嘉年华",
-    "2026年安徽户外LNT四季江淮徒步大会・10月・宁国站・铁匠山"
+    "2026 GO野社区赛·惠山一枝花",
+    "澜跑・2026贺兰山超级越野赛"
   ],
   "newRaces": [],
   "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."

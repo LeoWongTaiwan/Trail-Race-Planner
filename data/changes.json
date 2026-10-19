@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-12T05:57:06Z",
-  "windowStart": "2026-10-12",
-  "windowEnd": "2027-10-12",
-  "raceCount": 43,
-  "statusChanges": [
-    {
-      "id": "f0426696b41180",
-      "name": "2026斯巴达勇士赛-重庆站",
-      "from": "open",
-      "to": "closed"
-    }
-  ],
+  "updatedAt": "2026-10-19T04:39:41Z",
+  "windowStart": "2026-10-19",
+  "windowEnd": "2027-10-19",
+  "raceCount": 34,
+  "statusChanges": [],
   "removedOutsideWindow": [
-    "2026 GO野社区赛·惠山一枝花",
-    "澜跑・2026贺兰山超级越野赛"
+    "Ultra-Trail Mount Yun by UTMB®",
+    "2026 MaXi-Race China 江山100越野赛",
+    "2026中国山地越野公开赛（南京站）暨UTO助力首百汤山温泉越野赛",
+    "2026斯巴达勇士赛-重庆站",
+    "思凯乐·2026杭州大宋108越野赛",
+    "2026宿松白崖寨山径赛",
+    "2026环黄泥川·大连越野赛",
+    "OPC1000越野赛·IMTA TRAIL海州锦屏山秋季赛",
+    "奔跑贵阳·2026康养乌当越野赛暨银发徒步活动"
   ],
   "newRaces": [],
   "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."

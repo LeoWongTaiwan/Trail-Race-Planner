@@ -1,364 +1,15 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-12T05:57:06Z",
-    "windowStart": "2026-10-12",
-    "windowEnd": "2027-10-12",
-    "raceCount": 43,
+    "lastUpdated": "2026-10-19T04:39:41Z",
+    "windowStart": "2026-10-19",
+    "windowEnd": "2027-10-19",
+    "raceCount": 34,
     "openCount": 51,
     "pendingCount": 24,
     "updateMode": "scheduled-status-refresh",
     "note": "以 2026-07-01 完整底表為基礎，依 2026-07-17 重算狀態，並補入最新公開報名賽事。未重新核驗者不視為可報名。"
   },
   "races": [
-    {
-      "id": "fdf73828d87733",
-      "name": "Ultra-Trail Mount Yun by UTMB®",
-      "province": "山西",
-      "city": "临汾市乡宁县",
-      "region": "華北",
-      "date": "2026-10-16",
-      "registrationOpen": "",
-      "deadline": "",
-      "status": "pending",
-      "sourceStatus": "已截止",
-      "utmb": true,
-      "nearRank": 21,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "UTMB 系列",
-        "100K+"
-      ],
-      "categories": [
-        {
-          "km": 100,
-          "elev": null,
-          "label": "100K",
-          "index": ""
-        },
-        {
-          "km": 161,
-          "elev": null,
-          "label": "161K",
-          "index": ""
-        },
-        {
-          "km": 97,
-          "elev": null,
-          "label": "97K",
-          "index": ""
-        },
-        {
-          "km": 70,
-          "elev": null,
-          "label": "70K",
-          "index": ""
-        },
-        {
-          "km": 68,
-          "elev": null,
-          "label": "68K",
-          "index": ""
-        },
-        {
-          "km": 50,
-          "elev": null,
-          "label": "50K",
-          "index": ""
-        },
-        {
-          "km": 48,
-          "elev": null,
-          "label": "48K",
-          "index": ""
-        },
-        {
-          "km": 22,
-          "elev": null,
-          "label": "22K",
-          "index": ""
-        }
-      ],
-      "points": "Running Stones：4/3/2/2/1",
-      "sourceUrl": "https://mount-yun.utmb.world/",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "高",
-      "notes": "UTMB World Series；官方组别、距离、跑石已核验",
-      "lastProcessedAt": "2026-10-12"
-    },
-    {
-      "id": "b8bd1d0dad86e6",
-      "name": "2026 MaXi-Race China 江山100越野赛",
-      "province": "浙江",
-      "city": "衢州市江山市",
-      "region": "華東",
-      "date": "2026-10-17",
-      "registrationOpen": "",
-      "deadline": "",
-      "status": "pending",
-      "sourceStatus": "待开放",
-      "utmb": false,
-      "nearRank": 13,
-      "recommended": true,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "100K+"
-      ],
-      "categories": [
-        {
-          "km": 100,
-          "elev": null,
-          "label": "100K",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "十周年，待开报",
-      "lastProcessedAt": "2026-10-12"
-    },
-    {
-      "id": "ce8e749a09ef76",
-      "name": "2026中国山地越野公开赛（南京站）暨UTO助力首百汤山温泉越野赛",
-      "province": "江苏",
-      "city": "南京市江宁区",
-      "region": "華東",
-      "date": "2026-10-17",
-      "registrationOpen": "",
-      "deadline": "2026-09-19",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 16,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "百公里/多组别待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "国家级百公里越野赛；7/1核验：报名截止从上版 6/30 延后至 9/19。",
-      "lastProcessedAt": "2026-10-12"
-    },
-    {
-      "id": "f0426696b41180",
-      "name": "2026斯巴达勇士赛-重庆站",
-      "province": "重庆",
-      "city": "重庆市",
-      "region": "西南",
-      "date": "2026-10-17",
-      "registrationOpen": "",
-      "deadline": "2026-10-10",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 11,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "障碍赛/越野，公里数待核验",
-          "index": ""
-        }
-      ],
-      "points": "否/待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "非传统越野跑，保留观察",
-      "lastProcessedAt": "2026-10-12"
-    },
-    {
-      "id": "d3289c48e2cbff",
-      "name": "思凯乐·2026杭州大宋108越野赛",
-      "province": "浙江",
-      "city": "杭州市上城区",
-      "region": "華東",
-      "date": "2026-10-17",
-      "registrationOpen": "",
-      "deadline": "2026-09-15",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 13,
-      "recommended": true,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "100K+"
-      ],
-      "categories": [
-        {
-          "km": 108,
-          "elev": null,
-          "label": "108K",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "杭州百公里",
-      "lastProcessedAt": "2026-10-12"
-    },
-    {
-      "id": "0cf79cd1028810",
-      "name": "2026宿松白崖寨山径赛",
-      "province": "安徽",
-      "city": "安庆市宿松县",
-      "region": "華東",
-      "date": "2026-10-18",
-      "registrationOpen": "",
-      "deadline": "",
-      "status": "pending",
-      "sourceStatus": "未显示截止/待确认",
-      "utmb": false,
-      "nearRank": 14,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "低",
-      "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-10-12"
-    },
-    {
-      "id": "2bdfd0c181ce1e",
-      "name": "2026环黄泥川·大连越野赛",
-      "province": "辽宁",
-      "city": "大连市",
-      "region": "東北",
-      "date": "2026-10-18",
-      "registrationOpen": "",
-      "deadline": "2026-09-25",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 24,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "山海路线；7/1核验：报名截止从上版 6/30 延后至 9/25。",
-      "lastProcessedAt": "2026-10-12"
-    },
-    {
-      "id": "d80c90f4dd74ac",
-      "name": "OPC1000越野赛·IMTA TRAIL海州锦屏山秋季赛",
-      "province": "江苏",
-      "city": "连云港市海州区",
-      "region": "華東",
-      "date": "2026-10-18",
-      "registrationOpen": "",
-      "deadline": "2026-09-16",
-      "status": "closed",
-      "sourceStatus": "报名中",
-      "utmb": false,
-      "nearRank": 16,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "中",
-      "notes": "秋季赛",
-      "lastProcessedAt": "2026-10-12"
-    },
-    {
-      "id": "12a02290d4ad09",
-      "name": "奔跑贵阳·2026康养乌当越野赛暨银发徒步活动",
-      "province": "贵州",
-      "city": "贵阳市乌当区",
-      "region": "西南",
-      "date": "2026-10-18",
-      "registrationOpen": "",
-      "deadline": "",
-      "status": "pending",
-      "sourceStatus": "未显示截止/待确认",
-      "utmb": false,
-      "nearRank": 8,
-      "recommended": false,
-      "travel": "待核驗",
-      "weather": "賽前一週更新",
-      "reasons": [
-        "未來 365 天賽事"
-      ],
-      "categories": [
-        {
-          "km": 0,
-          "elev": null,
-          "label": "未公开/待核验",
-          "index": ""
-        }
-      ],
-      "points": "待核验",
-      "sourceUrl": "https://zuicool.com/events?type=trail-run&when=10",
-      "verifiedAt": "2026-07-01",
-      "dataQuality": "低",
-      "notes": "含徒步活动",
-      "lastProcessedAt": "2026-10-12"
-    },
     {
       "id": "c723179b1989cb",
       "name": "2026凯乐石莫干山跑山赛",
@@ -391,7 +42,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "十年问剑",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "fcc36a390ea095",
@@ -425,7 +76,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "高难度百英里",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "5534d372d73e0c",
@@ -459,7 +110,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "梅里雪山高海拔；7/1核验：报名截止日已过，最酷显示已截止。",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "bfead132608bb5",
@@ -493,7 +144,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
       "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "c4b09330fee8c2",
@@ -527,7 +178,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
       "notes": "非纯越野跑，保留观察",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "5de5c0ba84b16f",
@@ -561,7 +212,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "嵩山100",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "f0025af1130e0e",
@@ -595,7 +246,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "香港赛事；可在筛选中排除大陆以外",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "94b47ab57dac77",
@@ -635,7 +286,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "怪兽小太阳团队新赛事",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "6590601acd1142",
@@ -669,7 +320,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
       "notes": "可能与环新安江百公里有关联",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "0bbcb0c63d608c",
@@ -703,7 +354,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "SKYLINE天际线系列",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "2aa533238047a5",
@@ -737,7 +388,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "名额少，已截止",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "29244c026908f5",
@@ -802,7 +453,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "高",
       "notes": "UTMB World Series；官方组别与跑石已核验",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "cd0550e02c8e02",
@@ -836,7 +487,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "非传统越野跑，保留观察",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "3891132ec9a319",
@@ -870,7 +521,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "近期截止；7/1核验：报名截止日已过，最酷显示已截止。",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "e491be0563523e",
@@ -905,7 +556,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
       "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "db7f238fd7f0e1",
@@ -939,7 +590,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "世界自然遗产景区；7/1核验：报名截止从上版 6/30 延后至 8/31。",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "255b9688982483",
@@ -973,7 +624,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "宁海老牌越野",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "e18122be00102c",
@@ -1008,7 +659,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "香港赛事；若只看中国大陆可用“中国大陆=否”过滤",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "86bda5c32cd632",
@@ -1042,7 +693,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
       "notes": "XTERRA世界系列赛",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "b6a82fab591221",
@@ -1076,7 +727,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "穿越山海百公里",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "f3a204d3d3ea9f",
@@ -1110,7 +761,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "西宏秋季赛",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "5e47789e9f4e5c",
@@ -1144,7 +795,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "7/1新增：最酷11月页显示报名中。",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "b2a22afd6bdd01",
@@ -1178,7 +829,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
       "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "414106b47f3cbf",
@@ -1213,7 +864,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
       "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "3c7a01000ebd25",
@@ -1247,7 +898,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "SKYLINE天际线系列",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "0fc6c34d68d03e",
@@ -1281,7 +932,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "国内历史悠久跑山赛",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "ba52ff0a8b185b",
@@ -1315,7 +966,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
       "notes": "锦标赛性质，报名资格需另查",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "411e5a3a4c2c0c",
@@ -1349,7 +1000,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "仅剩少年10K提示曾出现，需确认补录",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "475ee7dc95282f",
@@ -1383,7 +1034,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "年终训练赛",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "de6980baa0c881",
@@ -1430,7 +1081,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "阳朔100，已截止",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "2c75cb039b5db0",
@@ -1464,7 +1115,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
       "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "b598529cb070ec",
@@ -1498,7 +1149,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "低",
       "notes": "需查官方渠道",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "80f724c13700e0",
@@ -1532,7 +1183,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "LNT徒步大会，不一定是越野跑",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     },
     {
       "id": "7710585727763c",
@@ -1566,7 +1217,7 @@
       "verifiedAt": "2026-07-01",
       "dataQuality": "中",
       "notes": "使用4月15日作为排序用估计日期；实际日期待官方公布",
-      "lastProcessedAt": "2026-10-12"
+      "lastProcessedAt": "2026-10-19"
     }
   ]
 }

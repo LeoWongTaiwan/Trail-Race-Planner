@@ -1,19 +1,13 @@
 {
-  "updatedAt": "2026-10-19T04:39:41Z",
-  "windowStart": "2026-10-19",
-  "windowEnd": "2027-10-19",
-  "raceCount": 34,
+  "updatedAt": "2026-10-26T04:46:24Z",
+  "windowStart": "2026-10-26",
+  "windowEnd": "2027-10-26",
+  "raceCount": 31,
   "statusChanges": [],
   "removedOutsideWindow": [
-    "Ultra-Trail Mount Yun by UTMB®",
-    "2026 MaXi-Race China 江山100越野赛",
-    "2026中国山地越野公开赛（南京站）暨UTO助力首百汤山温泉越野赛",
-    "2026斯巴达勇士赛-重庆站",
-    "思凯乐·2026杭州大宋108越野赛",
-    "2026宿松白崖寨山径赛",
-    "2026环黄泥川·大连越野赛",
-    "OPC1000越野赛·IMTA TRAIL海州锦屏山秋季赛",
-    "奔跑贵阳·2026康养乌当越野赛暨银发徒步活动"
+    "2026凯乐石莫干山跑山赛",
+    "2026奥尼捷·衢州·灵鹫山168古道越野赛",
+    "第十二届（2026）梅里100®极限耐力赛"
   ],
   "newRaces": [],
   "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."

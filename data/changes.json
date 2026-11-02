@@ -1,13 +1,30 @@
 {
-  "updatedAt": "2026-10-26T04:46:24Z",
-  "windowStart": "2026-10-26",
-  "windowEnd": "2027-10-26",
-  "raceCount": 31,
-  "statusChanges": [],
+  "updatedAt": "2026-11-02T06:01:01Z",
+  "windowStart": "2026-11-02",
+  "windowEnd": "2027-11-02",
+  "raceCount": 24,
+  "statusChanges": [
+    {
+      "id": "cd0550e02c8e02",
+      "name": "2026斯巴达勇士赛-莫干山站",
+      "from": "open",
+      "to": "closed"
+    },
+    {
+      "id": "475ee7dc95282f",
+      "name": "2026开野越野训练赛·安吉年终站",
+      "from": "open",
+      "to": "closed"
+    }
+  ],
   "removedOutsideWindow": [
-    "2026凯乐石莫干山跑山赛",
-    "2026奥尼捷·衢州·灵鹫山168古道越野赛",
-    "第十二届（2026）梅里100®极限耐力赛"
+    "2026连云港168超级越野赛",
+    "2026 XTERRA 世界杯暨越野三项·苏州站",
+    "2026中岳嵩山越野赛",
+    "2026香港狂野 HK WILD",
+    "2026黄山徽州古城环新安江百公里越野赛",
+    "2026黄山徽州古城越野赛·秋季赛",
+    "MILLET觅乐·2026环玉龙雪山超级越野赛"
   ],
   "newRaces": [],
   "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."

@@ -1,30 +1,16 @@
 {
-  "updatedAt": "2026-11-02T06:01:01Z",
-  "windowStart": "2026-11-02",
-  "windowEnd": "2027-11-02",
-  "raceCount": 24,
-  "statusChanges": [
-    {
-      "id": "cd0550e02c8e02",
-      "name": "2026斯巴达勇士赛-莫干山站",
-      "from": "open",
-      "to": "closed"
-    },
-    {
-      "id": "475ee7dc95282f",
-      "name": "2026开野越野训练赛·安吉年终站",
-      "from": "open",
-      "to": "closed"
-    }
-  ],
+  "updatedAt": "2026-11-09T06:26:18Z",
+  "windowStart": "2026-11-09",
+  "windowEnd": "2027-11-09",
+  "raceCount": 18,
+  "statusChanges": [],
   "removedOutsideWindow": [
-    "2026连云港168超级越野赛",
-    "2026 XTERRA 世界杯暨越野三项·苏州站",
-    "2026中岳嵩山越野赛",
-    "2026香港狂野 HK WILD",
-    "2026黄山徽州古城环新安江百公里越野赛",
-    "2026黄山徽州古城越野赛·秋季赛",
-    "MILLET觅乐·2026环玉龙雪山超级越野赛"
+    "2026凯乐石第十一届环四姑娘山超级越野跑",
+    "2026大蜀道100越野赛 by UTMB®",
+    "2026斯巴达勇士赛-莫干山站",
+    "2026澜跑无锡宜兴阳羡100越野挑战赛",
+    "2026第三届肇庆100越野赛",
+    "2026三清山云端越野赛"
   ],
   "newRaces": [],
   "note": "This stage automatically maintains dates and statuses. Verified external source adapters can be added later."
